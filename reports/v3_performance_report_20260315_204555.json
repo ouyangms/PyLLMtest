@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-03-15 20:45:55",
+  "engine_version": "V3",
+  "system_status": {
+    "pipeline_connectivity": "100%",
+    "stages_connected": 6,
+    "total_stages": 6
+  },
+  "performance": {
+    "total_samples": 1671,
+    "success_rate": 0.2537402752842609,
+    "execution_success_rate": 0.5290245362058648,
+    "path_distribution": {
+      "retrieval": 583,
+      "direct": 373,
+      "multi_turn": 337,
+      "llm_fallback": 378
+    },
+    "latency": {
+      "total": {
+        "p50": 1.6256000380963087,
+        "p95": 16.733599826693535,
+        "p99": 17.505499999970198,
+        "mean": 7.077030103234546,
+        "max": 108.60710009001195
+      },
+      "execution": {
+        "p50": 10.421199956908822,
+        "p95": 11.008900124579668,
+        "p99": 11.174199869856238,
+        "mean": 10.467678055375798,
+        "max": 11.447600089013577
+      }
+    },
+    "confidence": {
+      "mean": 0.6438909930414738,
+      "min": 0.3039503574371338,
+      "max": 1.0420477867126465
+    },
+    "category_performance": {
+      "seat_control": {
+        "total": 533,
+        "success": 177,
+        "success_rate": 0.3320825515947467,
+        "avg_latency": 8.192455719747558
+      },
+      "window_control": {
+        "total": 130,
+        "success": 33,
+        "success_rate": 0.25384615384615383,
+        "avg_latency": 9.465864610571701
+      },
+      "navigation": {
+        "total": 23,
+        "success": 10,
+        "success_rate": 0.43478260869565216,
+        "avg_latency": 6.962291309205086
+      },
+      "system_settings": {
+        "total": 55,
+        "success": 0,
+        "success_rate": 0.0,
+        "avg_latency": 16.56710910187526
+      },
+      "phone_call": {
+        "total": 15,
+        "success": 4,
+        "success_rate": 0.26666666666666666,
+        "avg_latency": 7.474359978611271
+      },
+      "climate_control": {
+        "total": 347,
+        "success": 172,
+        "success_rate": 0.4956772334293948,
+        "avg_latency": 10.521241793843785
+      },
+      "door_control": {
+        "total": 2,
+        "success": 0,
+        "success_rate": 0.0,
+        "avg_latency": 15.960250049829483
+      },
+      "mirror_control": {
+        "total": 29,
+        "success": 9,
+        "success_rate": 0.3103448275862069,
+        "avg_latency": 12.647713807507836
+      },
+      "music_media": {
+        "total": 32,
+        "success": 12,
+        "success_rate": 0.375,
+        "avg_latency": 10.67663748835912
+      },
+      "light_control": {
+        "total": 10,
+        "success": 7,
+        "success_rate": 0.7,
+        "avg_latency": 5.864109983667731
+      }
+    }
+  },
+  "engine_config": {
+    "router_model": "TextCNN (187K)",
+    "retriever": "HybridRetriever (关键词+向量)",
+    "use_llm": false,
+    "use_embedding": true,
+    "execute_skills": true,
+    "api_mode": "模拟"
+  }
+}

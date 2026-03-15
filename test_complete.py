@@ -149,9 +149,9 @@ for query, expected in expected_mapping.items():
     actual = classifier.predict(query)
     if actual == expected:
         correct += 1
-        status = "✅"
+        status = "[OK]"
     else:
-        status = "❌"
+        status = "[--]"
     print(f"{status} '{query}': 期望 {expected}, 实际 {actual}")
 
 accuracy = correct / total * 100
@@ -168,18 +168,18 @@ print(f"✓ 平均延迟: {avg_latency:.1f}ms (目标 <1000ms)")
 print(f"✓ 路由准确率: {accuracy:.1f}% (目标 >90%)")
 
 if avg_latency < 100:
-    print(f"\n🎉 延迟测试: 优秀 ({avg_latency:.1f}ms < 100ms)")
+    print(f"\n[GOOD] 延迟测试: 优秀 ({avg_latency:.1f}ms < 100ms)")
 elif avg_latency < 500:
-    print(f"\n✓ 延迟测试: 良好 ({avg_latency:.1f}ms < 500ms)")
+    print(f"\n[OK] 延迟测试: 良好 ({avg_latency:.1f}ms < 500ms)")
 else:
-    print(f"\n⚠️  延迟测试: 需要优化 ({avg_latency:.1f}ms)")
+    print(f"\n[WARN] 延迟测试: 需要优化 ({avg_latency:.1f}ms)")
 
 if accuracy > 80:
-    print(f"✓ 准确率测试: 良好 ({accuracy:.1f}% > 80%)")
+    print(f"[OK] 准确率测试: 良好 ({accuracy:.1f}% > 80%)")
 elif accuracy > 60:
-    print(f"⚠️  准确率测试: 需要改进 ({accuracy:.1f}%)")
+    print(f"[WARN] 准确率测试: 需要改进 ({accuracy:.1f}%)")
 else:
-    print(f"❌ 准确率测试: 需要优化 ({accuracy:.1f}%)")
+    print(f"[FAIL] 准确率测试: 需要优化 ({accuracy:.1f}%)")
 
 print("\n" + "=" * 60)
 print("测试完成!")

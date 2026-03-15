@@ -1,0 +1,2512 @@
+[
+  {
+    "name": "ActivateExploreForward",
+    "description": "Activate explore forward (我要探索前进)"
+  },
+  {
+    "name": "ActivateTraceBack",
+    "description": "Activate trace back (我要循迹后退)"
+  },
+  {
+    "name": "AdaptiveHeight",
+    "description": "Toggle adaptive height (打开|关闭自适应高度)"
+  },
+  {
+    "name": "AdjustAbsoluteValue",
+    "description": "Adjust [zone] absolute value (控制车辆[zone]绝对值调节功能)"
+  },
+  {
+    "name": "AdjustAirConditionerAbsoluteTemperature",
+    "description": "Adjust [zone] air conditioner temperature absolute value (控制车辆[zone]空调温度绝对值调节功能)"
+  },
+  {
+    "name": "AdjustAirConditionerExtremeTemperature",
+    "description": "Adjust [zone] air conditioner temperature extreme value (控制车辆[zone]空调温度极值调节功能)"
+  },
+  {
+    "name": "AdjustAirConditionerRelativeTemperature",
+    "description": "Adjust [zone] air conditioner temperature relative value (控制车辆[zone]空调温度相对值调节功能)"
+  },
+  {
+    "name": "AdjustAirVentElectricAbsoluteValue",
+    "description": "Adjust [zone] electric air vent absolute value (控制车辆[zone]电动出风口绝对值调节功能)"
+  },
+  {
+    "name": "AdjustAirVentElectricExtremeValue",
+    "description": "Adjust [zone] electric air vent extreme value (控制车辆[zone]电动出风口极值调节功能)"
+  },
+  {
+    "name": "AdjustAirVentElectricRelativeValue",
+    "description": "Adjust [zone] electric air vent relative value (控制车辆[zone]电动出风口相对值调节功能)"
+  },
+  {
+    "name": "AdjustAirflowAirConditionerExtremeValue",
+    "description": "Adjust [zone] air conditioner airflow extreme value (控制车辆[zone]空调风量极值调节功能)",
+    "enhanced_examples": [
+      "空调风量"
+    ]
+  },
+  {
+    "name": "AdjustAirflowAirConditionerMode",
+    "description": "Adjust [zone] air conditioner airflow mode (控制车辆[zone]空调风量模式调节功能)",
+    "enhanced_examples": [
+      "空调风量"
+    ]
+  },
+  {
+    "name": "AdjustAirflowAirConditionerRelativeValue",
+    "description": "Adjust [zone] air conditioner airflow relative value (控制车辆[zone]空调风量相对值调节功能)",
+    "enhanced_examples": [
+      "空调风量"
+    ]
+  },
+  {
+    "name": "AdjustAlarm",
+    "description": "Adjust speed limit alarm mode (控制车辆限速报警方式调整功能)"
+  },
+  {
+    "name": "AdjustConcentrationAbsoluteFragrance",
+    "description": "Adjust fragrance concentration absolute value (控制车辆香氛浓度绝对值调节功能)"
+  },
+  {
+    "name": "AdjustConcentrationExtremeValueFragrance",
+    "description": "Adjust fragrance concentration extreme value (控制车辆香氛浓度极值调节功能)"
+  },
+  {
+    "name": "AdjustConcentrationModeFragrance",
+    "description": "Adjust fragrance concentration mode (控制车辆香氛浓度模式调节功能)"
+  },
+  {
+    "name": "AdjustConcentrationRelativeFragrance",
+    "description": "Adjust fragrance concentration relative value (控制车辆香氛浓度相对值调节功能)"
+  },
+  {
+    "name": "AdjustCushionTilt",
+    "description": "Adjust cushion tilt to highest/lowest (坐垫倾斜角度调到最高/最低)"
+  },
+  {
+    "name": "SetEnergyRecoveryAuto",
+    "description": "Set energy recovery to auto (动力回收设置为自动)"
+  },
+  {
+    "name": "AdjustEntertainmentAngle",
+    "description": "Adjust second row entertainment screen angle (二排娱乐屏角度调大|二排娱乐屏往外|二排娱乐屏角度调小|二排娱乐屏往里|二排娱乐屏角度调到最大|二排娱乐屏角度调到最小)"
+  },
+  {
+    "name": "AdjustHUD",
+    "description": "Toggle HUD adjustment page (打开/关闭HUD调节页面)"
+  },
+  {
+    "name": "AdjustHUDAngle",
+    "description": "Adjust HUD angle to maximum/minimum (HUD角度调到最大/最小)"
+  },
+  {
+    "name": "AdjustHUDBrightness",
+    "description": "Adjust HUD brightness to highest/lowest (HUD亮度调到最高/最低)"
+  },
+  {
+    "name": "AdjustHUDHeight",
+    "description": "Adjust HUD height up/down (HUD往上/往下/向上/向下)"
+  },
+  {
+    "name": "AdjustMode",
+    "description": "Set maintenance mode (雨刮竖立，处于维修模式，便于维修雨刮，无方向默认前雨刮)"
+  },
+  {
+    "name": "SwitchPreviousnextDrivingMode",
+    "description": "Switch to previous/next driving mode (上一个/下一个驾驶模式)"
+  },
+  {
+    "name": "AdjustMultiple",
+    "description": "Adjust sunroof to 50% ([前/后/全部]天幕开到50%)"
+  },
+  {
+    "name": "AdjustMultipleExtremeValue",
+    "description": "Adjust sunroof to maximum/minimum ([前/后/全部]天幕开到最大/最小)"
+  },
+  {
+    "name": "AdjustMultipleRelativeValue",
+    "description": "Adjust sunroof opening ([前/后/全部]天幕开大/开小一点)"
+  },
+  {
+    "name": "AdjustRearScreenPosition",
+    "description": "Adjust rear screen position forward/backward (后排屏位置向前/向后调节)"
+  },
+  {
+    "name": "AdjustRearWing",
+    "description": "Set rear wing to high/medium/low (尾翼调节为高/中/低)"
+  },
+  {
+    "name": "AdjustRow2Entertainment",
+    "description": "Adjust second row entertainment screen position to X% (二排娱乐屏前后调到X%)"
+  },
+  {
+    "name": "AdjustSeatAngle",
+    "description": "Adjust [前排/后排/左侧/右侧/全车] seat angle to highest/lowest ([前排/后排/左侧/右侧/全车]座椅移到最高/最低)"
+  },
+  {
+    "name": "AdjustSeatHeight",
+    "description": "Adjust [前排/后排/左侧/右侧/全车] seat height to highest/lowest ([前排/后排/左侧/右侧/全车]座椅移到最高/最低)"
+  },
+  {
+    "name": "AdjustSeatPage",
+    "description": "Toggle seat adjustment page (打开/关闭座椅调节页面)"
+  },
+  {
+    "name": "AdjustSeatSlide",
+    "description": "Adjust [前排/后排/左侧/右侧/全车] seat forward/backward ([前排/后排/左侧/右侧/全车]座椅往前/往后一点)"
+  },
+  {
+    "name": "AdjustSideMirror",
+    "description": "Adjust side mirror up/down/left/right (后视镜向上/下/左/右调节一点)"
+  },
+  {
+    "name": "AdjustSoundEffectModeSpace",
+    "description": "Adjust sound effect mode (1、当前在播放全景声/全车沉浸环统音效/2D环绕音效开启)"
+  },
+  {
+    "name": "AdjustSpeedCompensatedVolume",
+    "description": "Close speed compensated volume (关闭音量随速调节)"
+  },
+  {
+    "name": "AdjustSteeringWheelFrontRear",
+    "description": "Adjust steering wheel forward/backward (方向盘往前/往后移+一点/百分之二十)"
+  },
+  {
+    "name": "AdjustSteeringWheelHeight",
+    "description": "Adjust steering wheel height (方向盘调高/调低+一点/百分之二十)"
+  },
+  {
+    "name": "AdjustSunroofAbsoluteValue",
+    "description": "Adjust sunroof to 20% (天幕开到百分之二十)"
+  },
+  {
+    "name": "AdjustSunroofAbsoluteValueAbsolute",
+    "description": "Adjust sunroof absolute value (天窗绝对值调节)"
+  },
+  {
+    "name": "AdjustSunroofExtremeValue",
+    "description": "Adjust sunroof to maximum/minimum (天幕开到最大/最小)"
+  },
+  {
+    "name": "AdjustSunroofExtremeValueExtreme",
+    "description": "Adjust sunroof extreme value (天窗极值调节)"
+  },
+  {
+    "name": "AdjustSunroofRelativeValue",
+    "description": "Adjust sunroof opening (天幕开大+一点/百分之二十)"
+  },
+  {
+    "name": "AdjustSunroofRelativeValueRelative",
+    "description": "Adjust sunroof relative value (天窗相对值调节)"
+  },
+  {
+    "name": "AdjustSunshadeAbsoluteValue",
+    "description": "Adjust sunshade absolute value (控制车辆遮阳帘绝对值调节功能)"
+  },
+  {
+    "name": "AdjustSunshadeExtremeValue",
+    "description": "Adjust sunshade to maximum/minimum (遮阳帘开到最大/最小)"
+  },
+  {
+    "name": "AdjustSunshadeRelativeValue",
+    "description": "Adjust sunshade opening (遮阳帘开大+一点/百分之二十)"
+  },
+  {
+    "name": "AdjustTopAngle",
+    "description": "Adjust overhead screen angle (控制车辆吸顶屏角度调节功能)"
+  },
+  {
+    "name": "AdjustWindDirectionAirConditionerAbsolut",
+    "description": "Adjust air conditioner wind direction absolute value (控制车辆空调风向绝对值调节功能)"
+  },
+  {
+    "name": "AdjustWindDirectionAirConditionerMode",
+    "description": "Adjust air conditioner wind direction mode (控制车辆空调风向模式调节功能)"
+  },
+  {
+    "name": "AdjustWindowAbsoluteValue",
+    "description": "Adjust [location] window absolute value ([location]车窗绝对值调节)"
+  },
+  {
+    "name": "AdjustWindowExtremeValue",
+    "description": "Adjust [location] window extreme value ([location]车窗极值调节)"
+  },
+  {
+    "name": "AdjustWindowRelativeValue",
+    "description": "Adjust [location] window relative value ([location]车窗相对值调节)"
+  },
+  {
+    "name": "QueryAirQuality",
+    "description": "Query air quality (控制车辆车里空气怎么样功能)"
+  },
+  {
+    "name": "AlarmVolume",
+    "description": "Set alarm volume to high/medium/low (高中低)"
+  },
+  {
+    "name": "AmbientLight",
+    "description": "Open music rhythm ambient light at [location] ([location]打开音乐律动氛围灯)",
+    "enhanced_examples": [
+      "氛围灯"
+    ]
+  },
+  {
+    "name": "AntiMotionSicknessMode",
+    "description": "Anti-motion sickness mode (防晕车模式)"
+  },
+  {
+    "name": "Assist",
+    "description": "Toggle turn signal lane change assist (控制车辆拨杆变道辅助开关功能)"
+  },
+  {
+    "name": "ToggleCommutePilotAssist",
+    "description": "Toggle commute pilot assist (控制车辆通勤领航驾驶辅助功能)"
+  },
+  {
+    "name": "ToggleEmergencyLaneKeepAssist",
+    "description": "Toggle emergency lane keep assist (控制车辆紧急车道保持辅助开关功能)"
+  },
+  {
+    "name": "ToggleLaneKeepEmergencyAssist",
+    "description": "Toggle lane keep emergency assist (控制车辆车道保持紧急辅助功能)"
+  },
+  {
+    "name": "ActivateIntelligentDrivingAssist",
+    "description": "Activate intelligent driving assist (控制车辆激活智能驾驶辅助功能)"
+  },
+  {
+    "name": "AutoCruise",
+    "description": "Toggle cruise automatic speed limit (控制车辆巡航自动限速功能)"
+  },
+  {
+    "name": "AutoAuto",
+    "description": "Toggle automatic emergency braking (控制车辆自动紧急制动开关功能)"
+  },
+  {
+    "name": "AutoNavigation",
+    "description": "Close navigation automatic volume reduction (关闭导航自动降音)"
+  },
+  {
+    "name": "AuxScreen",
+    "description": "Close PSD Bluetooth (关闭PSD蓝牙开关)"
+  },
+  {
+    "name": "Backrest",
+    "description": "Adjust [前排/后排/左侧/右侧/全车] seat backrest forward/backward ([前排/后排/左侧/右侧/全车]座椅靠背往前/往后一点)"
+  },
+  {
+    "name": "BatteryLevel",
+    "description": "Toggle low battery auto start generator (开启后，低电量时燃油发电机启动发动机)"
+  },
+  {
+    "name": "ButtonBrightness",
+    "description": "Close instrument auto brightness switch (关闭仪表自动切换亮暗)"
+  },
+  {
+    "name": "ButtonSoundEffect",
+    "description": "Toggle button sound effect (控制车辆按键音效功能)"
+  },
+  {
+    "name": "CampingSpace",
+    "description": "Use classical voice feedback (使用通用语音反馈文言)"
+  },
+  {
+    "name": "Charging",
+    "description": "Toggle [交流/直流] charging port cover (打开/关闭[交流/直流]二合一充电口盖)"
+  },
+  {
+    "name": "StartChargingImmediately",
+    "description": "Start charging immediately (立即开始充电)"
+  },
+  {
+    "name": "ChargingReservation",
+    "description": "Close charging reservation (关闭预约充电)"
+  },
+  {
+    "name": "ChargingSlowCharging",
+    "description": "Set AC charging current limit to [targetValue] (交流充电电流限值调到[targetValue])"
+  },
+  {
+    "name": "ChargingStatusIndicator",
+    "description": "Close charging status indicator (关闭充电状态指示灯)"
+  },
+  {
+    "name": "ChildLock",
+    "description": "Unlock child lock (解锁=开锁=关闭上锁=关闭锁)"
+  },
+  {
+    "name": "CloseFunction",
+    "description": "Close function (控制车辆关闭功能)"
+  },
+  {
+    "name": "CloseNegativeIonWindowCloseReminder",
+    "description": "Close negative ion window close reminder (控制车辆关闭负离子关窗提醒功能)",
+    "enhanced_examples": [
+      "关窗"
+    ]
+  },
+  {
+    "name": "Close2DWholeVehicleSoundEffectSurround",
+    "description": "Close 2D surround/whole vehicle immersive surround sound (关闭2D环绕音/全车沉浸环绕音效)"
+  },
+  {
+    "name": "CloseCarplay",
+    "description": "Close CarPlay (控制车辆关闭carplay功能)"
+  },
+  {
+    "name": "Close5G",
+    "description": "Close 5G (控制车辆关闭5G功能)"
+  },
+  {
+    "name": "CloseWaltzTurn",
+    "description": "Close waltz turn (关闭华尔兹调头)"
+  },
+  {
+    "name": "CloseEmergencyRecording",
+    "description": "Close emergency recording (控制车辆关闭紧急录制功能)"
+  },
+  {
+    "name": "CloseLocationCamera",
+    "description": "Close [location] camera (控制车辆关闭[location]相机功能)"
+  },
+  {
+    "name": "CloseMicrophone",
+    "description": "Close microphone (控制车辆关闭麦克风功能)"
+  },
+  {
+    "name": "CloseAI",
+    "description": "Close AI temperature control (控制车辆关闭AI控温功能)"
+  },
+  {
+    "name": "CloseAirConditioner",
+    "description": "Close [zone] air conditioner (控制车辆关闭[zone]空调功能)"
+  },
+  {
+    "name": "CloseZoneAirConditionerAc",
+    "description": "Close [zone] air conditioner AC (控制车辆关闭[zone]空调AC功能)"
+  },
+  {
+    "name": "CloseZoneAirConditionerAuto",
+    "description": "Close [zone] air conditioner AUTO (控制车辆关闭[zone]空调AUTO功能)"
+  },
+  {
+    "name": "CloseAirConditionerDefog",
+    "description": "Close defog (关闭除雾)"
+  },
+  {
+    "name": "CloseAirConditionerDefrost",
+    "description": "Close air conditioner defrost (控制车辆关闭空调除霜功能)",
+    "enhanced_examples": [
+      "关闭空调",
+      "除霜"
+    ]
+  },
+  {
+    "name": "CloseAirConditionerMode",
+    "description": "Close air conditioner AUTO mode (控制车辆关闭空调AUTO模式功能)",
+    "enhanced_examples": [
+      "关闭空调"
+    ]
+  },
+  {
+    "name": "CloseAirConditionerHeatingMode",
+    "description": "Close air conditioner heating mode (控制车辆关闭空调制热模式功能)",
+    "enhanced_examples": [
+      "关闭空调",
+      "制热"
+    ]
+  },
+  {
+    "name": "CloseAirConditionerEconomyMode",
+    "description": "Close air conditioner economy mode (控制车辆关闭空调经济模式功能)",
+    "enhanced_examples": [
+      "关闭空调"
+    ]
+  },
+  {
+    "name": "CloseAirConditionerModeCooling",
+    "description": "Close air conditioner cooling mode (控制车辆关闭空调制冷模式功能)",
+    "enhanced_examples": [
+      "关闭空调",
+      "制冷"
+    ]
+  },
+  {
+    "name": "CloseAirConditionerModeECO",
+    "description": "Close air conditioner ECO mode (控制车辆关闭空调ECO模式功能)",
+    "enhanced_examples": [
+      "关闭空调"
+    ]
+  },
+  {
+    "name": "CloseAirConditionerSettings",
+    "description": "Close second row air conditioner settings (关闭二排空调设置)"
+  },
+  {
+    "name": "CloseAutoAirConditioner",
+    "description": "Close air conditioner auto circulation (控制车辆关闭空调自动循环功能)",
+    "enhanced_examples": [
+      "关闭空调"
+    ]
+  },
+  {
+    "name": "CloseAutoAirConditionerAntiFog",
+    "description": "Close air conditioner auto anti-fog (控制车辆关闭空调自动防起雾功能)",
+    "enhanced_examples": [
+      "关闭空调"
+    ]
+  },
+  {
+    "name": "CloseAutoDefogDefrost",
+    "description": "Close auto defog/defrost (控制车辆关闭自动除霜除雾功能)"
+  },
+  {
+    "name": "CloseAutoLockVehicle",
+    "description": "Toggle rear screen auto close on lock (打开/关闭后排屏锁车自动关闭功能)"
+  },
+  {
+    "name": "CloseAutoPurificationAir",
+    "description": "Close PM2.5 auto purification reminder (控制车辆关闭PM2.5空气自动净化提醒功能)"
+  },
+  {
+    "name": "CloseBluetooth",
+    "description": "Close Bluetooth (关闭蓝牙)"
+  },
+  {
+    "name": "CloseJilu",
+    "description": "Close Jilu同行 (控制车辆关闭吉路同行功能)"
+  },
+  {
+    "name": "CloseCinemaMode",
+    "description": "Cinema mode closed (影院模式已关闭)"
+  },
+  {
+    "name": "CloseCooling",
+    "description": "Close [zone] rapid cooling (控制车辆关闭[zone]极速降温功能)"
+  },
+  {
+    "name": "CloseDriving",
+    "description": "Close dash cam [switch] (控制车辆关闭行车记录仪[开关]功能)"
+  },
+  {
+    "name": "CloseFragrance",
+    "description": "Close fragrance (控制车辆关闭香氛功能)"
+  },
+  {
+    "name": "CloseFrontAirConditionerDefog",
+    "description": "Close front air conditioner defog (控制车辆关闭空调前除雾功能)",
+    "enhanced_examples": [
+      "关闭空调",
+      "除雾"
+    ]
+  },
+  {
+    "name": "CloseFrontAirConditionerDefrost",
+    "description": "Close front air conditioner defrost (控制车辆关闭空调前除霜功能)",
+    "enhanced_examples": [
+      "关闭空调",
+      "除霜"
+    ]
+  },
+  {
+    "name": "CloseGoddessMode",
+    "description": "Goddess mode closed (女神模式已关闭)"
+  },
+  {
+    "name": "CloseHeating",
+    "description": "Close [zone] rapid heating (控制车辆关闭[zone]极速升温功能)"
+  },
+  {
+    "name": "CloseHotspot",
+    "description": "Close hotspot (控制车辆关闭车载热点功能)"
+  },
+  {
+    "name": "CloseInnerAirConditioner",
+    "description": "Close air conditioner inner circulation (控制车辆关闭空调内循环功能)",
+    "enhanced_examples": [
+      "关闭空调"
+    ]
+  },
+  {
+    "name": "CloseMain",
+    "description": "Close active seatbelt (将主动式安全带设置项开关关闭)"
+  },
+  {
+    "name": "CloseModeKTV",
+    "description": "KTV mode closed (KTV模式已关闭)"
+  },
+  {
+    "name": "CloseOuterAirConditioner",
+    "description": "Close air conditioner outer circulation (控制车辆关闭空调外循环功能)",
+    "enhanced_examples": [
+      "关闭空调"
+    ]
+  },
+  {
+    "name": "ClosePurificationModeAir",
+    "description": "Close air purification mode (控制车辆关闭空气净化模式功能)"
+  },
+  {
+    "name": "CloseRearAirConditionerDefog",
+    "description": "Close rear air conditioner defog (控制车辆关闭空调后除雾功能)",
+    "enhanced_examples": [
+      "关闭空调",
+      "除雾"
+    ]
+  },
+  {
+    "name": "CloseRearAirConditionerDefrost",
+    "description": "Close rear air conditioner defrost (控制车辆关闭空调后除霜功能)",
+    "enhanced_examples": [
+      "关闭空调",
+      "除霜"
+    ]
+  },
+  {
+    "name": "CloseRearDefogHeat",
+    "description": "Close rear window electric heating defog (控制车辆关闭后窗电加热除雾功能)"
+  },
+  {
+    "name": "CloseRearRowAirConditioner",
+    "description": "Close safety and service settings (关闭安全与服务设置)"
+  },
+  {
+    "name": "CloseRearRowAutoLockVehicle",
+    "description": "Toggle rear screen auto close on vehicle lock (打开/关闭锁车自动关闭后排屏)"
+  },
+  {
+    "name": "CloseSentryMode",
+    "description": "Close sentry mode (关闭哨兵模式)"
+  },
+  {
+    "name": "CloseSideMirrorDefogHeat",
+    "description": "Close side mirror heating defog (控制车辆关闭后视镜加热除雾功能)"
+  },
+  {
+    "name": "CloseSuspension",
+    "description": "Close suspension easy loading (控制车辆关闭悬架方便装载功能)"
+  },
+  {
+    "name": "CloseSuspensionMode",
+    "description": "Close suspension easy loading mode (控制车辆关闭悬架轻松载物模式功能)"
+  },
+  {
+    "name": "CloseSuspensionPauseMiddle",
+    "description": "Pause/Continue close suspension easy loading (控制车辆中途暂停/继续关闭悬架方便装载功能)"
+  },
+  {
+    "name": "CloseSyncAirConditionerTemperature",
+    "description": "Close air conditioner temperature sync (控制车辆关闭空调温度同步功能)",
+    "enhanced_examples": [
+      "关闭空调"
+    ]
+  },
+  {
+    "name": "CloseWiFi",
+    "description": "Close Wi-Fi (控制车辆关闭Wi-Fi功能)"
+  },
+  {
+    "name": "CloseWirelessCharging",
+    "description": "Close wireless charging (关闭手机无线充电)"
+  },
+  {
+    "name": "CloudPagePhotoAlbum",
+    "description": "Close cloud photo album page (关闭云端图册页面)"
+  },
+  {
+    "name": "ConnectFragrance",
+    "description": "Disconnect fragrance device (控制车辆断开连接香氛设备功能)"
+  },
+  {
+    "name": "ConnectFragranceDevice",
+    "description": "Connect fragrance device (控制车辆连接香氛设备功能)"
+  },
+  {
+    "name": "Control",
+    "description": "Toggle tech belt light (打开/关闭科技带灯)"
+  },
+  {
+    "name": "CloseComfortableParking",
+    "description": "Close comfortable parking (关闭舒适停车)"
+  },
+  {
+    "name": "ControlApproachUnlock",
+    "description": "Toggle approach unlock (打开/关闭近车解锁)"
+  },
+  {
+    "name": "ControlAutoFront",
+    "description": "Toggle front combination light/external light/headlight (前组合灯/外部灯光/大灯关闭/打开)"
+  },
+  {
+    "name": "ControlAutoLockVehicle",
+    "description": "Toggle auto close windows on lock (打开/关闭锁车自动关窗)",
+    "enhanced_examples": [
+      "关窗"
+    ]
+  },
+  {
+    "name": "ControlAutoParking",
+    "description": "Close auto hold (关闭自动驻车)"
+  },
+  {
+    "name": "ControlAutoParkingAuto",
+    "description": "Toggle auto unlock on park (打开/关闭驻车自动解锁)"
+  },
+  {
+    "name": "CloseHighBeam",
+    "description": "Close high beam (关闭远光灯)",
+    "enhanced_examples": [
+      "远光灯",
+      "远光"
+    ]
+  },
+  {
+    "name": "ControlESCSystem",
+    "description": "Close ESC system (关闭ESC车身稳定系统)"
+  },
+  {
+    "name": "ControlFogLightRear",
+    "description": "Close rear fog light (关闭后雾灯)",
+    "enhanced_examples": [
+      "雾灯"
+    ]
+  },
+  {
+    "name": "ControlGesture",
+    "description": "Toggle second row entertainment screen gesture control (打开/关闭二排娱乐屏手势控制功能)"
+  },
+  {
+    "name": "ControlHazardLight",
+    "description": "Close hazard light (关闭双闪)"
+  },
+  {
+    "name": "ControlMode",
+    "description": "Set door handle unlock mode to driver only/whole vehicle (门把手感应解锁模式设置为仅主驾/整车)"
+  },
+  {
+    "name": "SetRemoteUnlockModeDriverOnlywholeVehicl",
+    "description": "Set remote unlock mode to driver only/whole vehicle (遥控解锁模式设置为仅主驾/整车)"
+  },
+  {
+    "name": "ControlParking",
+    "description": "Close electronic parking (关闭电子驻车)"
+  },
+  {
+    "name": "ControlReadingLight",
+    "description": "Close reading lights (关闭主驾、副驾、二排左、二排右、三排/后排左、三排/后排右的阅读灯（根据实车配置）)",
+    "enhanced_examples": [
+      "阅读灯"
+    ]
+  },
+  {
+    "name": "ControlSideMirrorSentryFoldMode",
+    "description": "Toggle side mirror sentry fold mode (后视镜哨兵折叠模式控制)"
+  },
+  {
+    "name": "ControlTop",
+    "description": "Close roof light (关闭车顶灯)"
+  },
+  {
+    "name": "ControlUp",
+    "description": "Toggle leave vehicle lock (打开/关闭离车上锁)"
+  },
+  {
+    "name": "ControlVehicleLocatingMode",
+    "description": "Set vehicle locating mode to flash/horn+flash (寻车模式设置为闪灯/鸣笛+闪灯)"
+  },
+  {
+    "name": "CrabWalkMode",
+    "description": "Close crab walk mode (关闭蟹行模式)"
+  },
+  {
+    "name": "CurrentAirConditionerTemperature",
+    "description": "Query current air conditioner temperature (目前空调多少度/车里多少度)"
+  },
+  {
+    "name": "CurrentFragrance",
+    "description": "Query current fragrance remaining (控制车辆当前香氛余量多少功能)"
+  },
+  {
+    "name": "CurrentInner",
+    "description": "Query current interior PM2.5 value (控制车辆当前车内PM2.5值多少功能)"
+  },
+  {
+    "name": "DOWWarning",
+    "description": "Toggle DOW warning (控制车辆DOW开门预警开关功能)"
+  },
+  {
+    "name": "Details",
+    "description": "View maintenance details (控制车辆查看保养项目详情功能)"
+  },
+  {
+    "name": "Discharge",
+    "description": "Close discharge range protection (关闭放电综合里程保护)"
+  },
+  {
+    "name": "Disconnect",
+    "description": "Disconnect CarPlay (控制车辆断开carplay功能)"
+  },
+  {
+    "name": "Display",
+    "description": "Set pure electric range display to CLTC mode (设置纯电续航里程显示为CLTC模式)"
+  },
+  {
+    "name": "DisplayMode",
+    "description": "Set display theme to night/auto/custom/sunrise/sunset (将车辆显示主题设置为夜晚/自动/自定义/日出/日落)"
+  },
+  {
+    "name": "Door",
+    "description": "Toggle door lock (控制车辆车门锁开关功能)"
+  },
+  {
+    "name": "DoorCurrent",
+    "description": "Set touch door handle unlock to current door (将触摸门把手解锁功能设置项设为当前车门)"
+  },
+  {
+    "name": "DoorMain",
+    "description": "Toggle driver door unlock only (打开/关闭仅主驾车门解锁)",
+    "enhanced_examples": [
+      "车门解锁"
+    ]
+  },
+  {
+    "name": "DoorWholeVehicle",
+    "description": "Set touch door handle unlock to whole vehicle (将触摸门把手解锁功能设置项设为全车车门)"
+  },
+  {
+    "name": "TakePhoto",
+    "description": "Take photo (控制车辆帮我拍照一下/拍照/拍张照/普通拍照/我要拍照/再来一张功能)"
+  },
+  {
+    "name": "DownDown",
+    "description": "Place whole vehicle maintenance order (控制车辆整车保养下单功能)"
+  },
+  {
+    "name": "ToggleStayPoweredWhenLeavingVehicle",
+    "description": "Toggle stay powered on when leaving vehicle (打开/关闭离车不下电)"
+  },
+  {
+    "name": "DownFragrance",
+    "description": "Switch to next fragrance (控制车辆下一个香氛功能)"
+  },
+  {
+    "name": "DownRescue",
+    "description": "Place rescue order (控制车辆救援下单功能)"
+  },
+  {
+    "name": "DownReservation",
+    "description": "Place reservation order (控制车辆预约下单功能)"
+  },
+  {
+    "name": "Driving",
+    "description": "Daytime running tail light (控制车辆日间行车尾灯功能)"
+  },
+  {
+    "name": "CloseDrivingPowerRetention",
+    "description": "Close driving power retention (关闭行车保电)"
+  },
+  {
+    "name": "DrivingDisplay",
+    "description": "Next boarding (下次上车)"
+  },
+  {
+    "name": "DryingAirConditionerLockVehicle",
+    "description": "Toggle air conditioner auto drying on lock (控制车辆锁车空调自干燥功能)"
+  },
+  {
+    "name": "EarphoneBluetoothVolume",
+    "description": "Close Bluetooth earphone sound (关闭蓝牙耳机声音)"
+  },
+  {
+    "name": "Entertainment",
+    "description": "Toggle second row entertainment screen collision reminder (打开/关闭二排娱乐屏防碰撞提醒功能)"
+  },
+  {
+    "name": "Equalizer",
+    "description": "Set equalizer to pop (均衡器音效调为流行)"
+  },
+  {
+    "name": "FarewellPage",
+    "description": "Close farewell light effect page (关闭欢送灯效页面)"
+  },
+  {
+    "name": "Fragrance",
+    "description": "Purchase fragrance device (控制车辆购买香氛设备功能)"
+  },
+  {
+    "name": "SwitchFragranceScent",
+    "description": "Switch fragrance scent (控制车辆香氛换一种香味功能)"
+  },
+  {
+    "name": "FragranceDuration",
+    "description": "Set fragrance duration to 30/60/90/120 minutes (控制车辆香氛开启时长设为30/60/90/120分钟功能)"
+  },
+  {
+    "name": "ToggleFrontVehicleDepartureReminder",
+    "description": "Toggle front vehicle departure reminder (控制车辆前车驶离提醒开关功能)"
+  },
+  {
+    "name": "FrontDown",
+    "description": "Take front photo (控制车辆拍下前面照片功能)"
+  },
+  {
+    "name": "FrontDownFront",
+    "description": "Take front video (控制车辆拍下前面视频功能)"
+  },
+  {
+    "name": "FrontFront",
+    "description": "Front position light follows daytime running light (同（前位置灯跟随日行灯点亮）功能)"
+  },
+  {
+    "name": "FrontRowAirConditioner",
+    "description": "Toggle front row air conditioner AUTO (控制车辆前排空调AUTO功能)"
+  },
+  {
+    "name": "ToggleFrontRowAirConditionerAc",
+    "description": "Toggle front row air conditioner AC (控制车辆前排空调AC功能)"
+  },
+  {
+    "name": "FrontWarning",
+    "description": "Toggle front collision warning (控制车辆前碰撞预警开关功能)"
+  },
+  {
+    "name": "FullChargeChargingReservation",
+    "description": "Set to full charge (设置为充满电)"
+  },
+  {
+    "name": "Gesture",
+    "description": "Open gesture tutorial (打开手势教学引导)"
+  },
+  {
+    "name": "Glass",
+    "description": "Clean front/rear windshield with washer fluid (前/后挡风玻璃，用玻璃水进行清洗，无方向默认前挡风玻璃)"
+  },
+  {
+    "name": "HUDHUD",
+    "description": "Toggle HUD (打开/关闭+HUD/抬头显示)"
+  },
+  {
+    "name": "HeadrestAudio",
+    "description": "Close headrest audio smart switch (关闭头枕音响智能切换)"
+  },
+  {
+    "name": "HeadrestBrightness",
+    "description": "Adjust [passenger headrest screen brightness lower 30%] (把[副驾头枕屏亮度调低 30%])"
+  },
+  {
+    "name": "HelpMiddleVoice",
+    "description": "Close voice help center (关闭语音帮助中心)"
+  },
+  {
+    "name": "InnerView",
+    "description": "Take interior photo (控制车辆车内照片拍照功能)"
+  },
+  {
+    "name": "InnerInner",
+    "description": "Record interior video (控制车辆车内风景录像功能)"
+  },
+  {
+    "name": "LargeBedMode",
+    "description": "Toggle [front row/rear row/whole vehicle] bed mode (打开/关闭+前排/后排/全车大床模式)"
+  },
+  {
+    "name": "LeftDown",
+    "description": "Take left photo (控制车辆拍下左边照片功能)"
+  },
+  {
+    "name": "LeftDownLeft",
+    "description": "Take left video (控制车辆拍下左边视频功能)"
+  },
+  {
+    "name": "LegRest",
+    "description": "Adjust [前排/后排/左侧/右侧/全车] seat leg rest forward/backward ([前排/后排/左侧/右侧/全车]座椅腿托往前/往后一点)"
+  },
+  {
+    "name": "CloseLightShow",
+    "description": "Close light show (关闭灯光秀)",
+    "enhanced_examples": [
+      "关闭灯光"
+    ]
+  },
+  {
+    "name": "ListApplication",
+    "description": "Close app list (关闭应用列表)"
+  },
+  {
+    "name": "LowerVolume",
+    "description": "Toggle lower media volume on door open (打开/关闭开门降低媒体音量)"
+  },
+  {
+    "name": "LumbarSupport",
+    "description": "Adjust [前排/后排/左侧/右侧/全车] seat lumbar support up/down ([前排/后排/左侧/右侧/全车]座椅腰托调高/调低一点)"
+  },
+  {
+    "name": "LyricsDisplay",
+    "description": "Toggle HUD lyrics display (打开/关闭HUD的歌词显示)"
+  },
+  {
+    "name": "ReturnHome",
+    "description": "Return to home (回到主页)"
+  },
+  {
+    "name": "MainMain",
+    "description": "Set display theme to day (将车辆显示主题设置为白天)"
+  },
+  {
+    "name": "Memory",
+    "description": "Start memory route (控制车辆开始记忆路线功能)"
+  },
+  {
+    "name": "MemoryParkingExam",
+    "description": "Memory parking exam (控制车辆记忆泊车考试功能)"
+  },
+  {
+    "name": "ToggleMemoryParking",
+    "description": "Toggle memory parking (控制车辆记忆泊车功能)"
+  },
+  {
+    "name": "Middle",
+    "description": "Close central lock (将中控锁设置项开关关闭)"
+  },
+  {
+    "name": "MiddleScreenBrightness",
+    "description": "Close central screen auto brightness (关闭中控自动调节亮度)"
+  },
+  {
+    "name": "ModeFunction",
+    "description": "Set recording to mute mode (控制车辆录像时设为静音模式功能)"
+  },
+  {
+    "name": "ToggleLocationBreathableMode",
+    "description": "Toggle [location] breathable mode ([location]透气模式开关)"
+  },
+  {
+    "name": "MultimediaSoundEffect",
+    "description": "Close multimedia sound effect settings (关闭多媒体音效设置)"
+  },
+  {
+    "name": "MultimediaVolume",
+    "description": "Close multimedia sound (关闭多媒体声音)"
+  },
+  {
+    "name": "NavigationMode",
+    "description": "Set navigation mix mode to direct mix (将导航混音模式设置为直接混音)"
+  },
+  {
+    "name": "NavigationMultimediaOuter",
+    "description": "Unmute multimedia/navigation/external speaker (控制车辆取消多媒体/导航/车外扬声器静音功能)"
+  },
+  {
+    "name": "NavigationMultimediaOuterOuter",
+    "description": "Mute multimedia/navigation/external speaker (多媒体/导航/车外扬声器静音)"
+  },
+  {
+    "name": "NavigationVolume",
+    "description": "Close navigation sound (关闭导航声音)"
+  },
+  {
+    "name": "NoMicrophoneKaraoke",
+    "description": "Toggle karaoke without microphone (控制车辆无麦k歌功能)"
+  },
+  {
+    "name": "NotificationMiddle",
+    "description": "Close notification center page (关闭通知中心页面)"
+  },
+  {
+    "name": "NotificationSystem",
+    "description": "Close notification list (关闭通知列表)"
+  },
+  {
+    "name": "OpenFunction",
+    "description": "Open function (控制车辆打开功能)"
+  },
+  {
+    "name": "OpenEmergencyRecording",
+    "description": "Open emergency recording (控制车辆打开紧急录制功能)"
+  },
+  {
+    "name": "OpenCarplay",
+    "description": "Open CarPlay (控制车辆打开carplay功能)"
+  },
+  {
+    "name": "CloseSoundSettingspage",
+    "description": "Close sound settings/page (关闭声音设置/页面)"
+  },
+  {
+    "name": "OpenLocationCamera",
+    "description": "Open [location] camera (控制车辆打开[location]相机功能)"
+  },
+  {
+    "name": "Open3DSoundEffect",
+    "description": "Toggle 3D surround sound (打开/关闭3D环绕音效)"
+  },
+  {
+    "name": "CloseCameraMicrophoneGlobalResponse",
+    "description": "Close camera microphone, global response (关闭相机麦克风，全局响应)"
+  },
+  {
+    "name": "OpenMicrophone",
+    "description": "Open microphone (控制车辆打开麦克风功能)"
+  },
+  {
+    "name": "Open2",
+    "description": "Open 吉路同行 (控制车辆打开吉路同行功能)"
+  },
+  {
+    "name": "Open4DSoundEffect",
+    "description": "Toggle 4D sound effect (控制车辆4D音效功能)"
+  },
+  {
+    "name": "ToggleNegativeIon",
+    "description": "Toggle negative ion (控制车辆打开/关闭负离子功能)"
+  },
+  {
+    "name": "Open5G",
+    "description": "Open 5G (控制车辆打开5G功能)"
+  },
+  {
+    "name": "OpenTimedPhoto",
+    "description": "Open timed photo (控制车辆打开定时拍照功能)"
+  },
+  {
+    "name": "CloseDrivingdrivingControlPagesettings",
+    "description": "Close driving/driving control page/settings (关闭驾驶/驾驶操控页面/设置)"
+  },
+  {
+    "name": "CloseStickyNote",
+    "description": "Close sticky note (关闭便利贴)"
+  },
+  {
+    "name": "NegativeIonOffWarnIfWindowsNotClosed",
+    "description": "Negative ion on from off, warn if windows not closed (负离子从关闭到打开时，如果有车窗未关闭，则会弹窗提醒)"
+  },
+  {
+    "name": "OpenTimedRecording",
+    "description": "Open timed recording (控制车辆打开定时录像功能)"
+  },
+  {
+    "name": "ToggleSplitScreen",
+    "description": "Toggle split screen (打开/关闭分屏)"
+  },
+  {
+    "name": "OpenACCAdaptive",
+    "description": "Toggle adaptive cruise ACC (控制车辆打开/关闭自适应巡航ACC功能)"
+  },
+  {
+    "name": "OpenAI",
+    "description": "Open AI temperature control (控制车辆打开AI控温功能)"
+  },
+  {
+    "name": "OpenAIRhythmVoice",
+    "description": "Toggle AI rhythm voice association (打开/关闭AI律动关联语音)"
+  },
+  {
+    "name": "OpenAirConditioner",
+    "description": "Open [zone] air conditioner (控制车辆打开[zone]空调功能)"
+  },
+  {
+    "name": "OpenZoneAirConditionerAc",
+    "description": "Open [zone] air conditioner AC (控制车辆打开[zone]空调AC功能)"
+  },
+  {
+    "name": "OpenZoneAirConditionerAuto",
+    "description": "Open [zone] air conditioner AUTO (控制车辆打开[zone]空调AUTO功能)"
+  },
+  {
+    "name": "OpenAirConditionerDefog",
+    "description": "Open defog (打开除雾)"
+  },
+  {
+    "name": "OpenAirConditionerDefrost",
+    "description": "Open air conditioner defrost (控制车辆打开空调除霜功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调",
+      "除霜"
+    ]
+  },
+  {
+    "name": "OpenAirConditionerMode",
+    "description": "Open air conditioner AUTO mode (控制车辆打开空调AUTO模式功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调"
+    ]
+  },
+  {
+    "name": "OpenAirConditionerEconomyMode",
+    "description": "Open air conditioner economy mode (控制车辆打开空调经济模式功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调"
+    ]
+  },
+  {
+    "name": "OpenAirConditionerHeatingMode",
+    "description": "Open air conditioner heating mode (控制车辆打开空调制热模式功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调",
+      "制热"
+    ]
+  },
+  {
+    "name": "OpenAirConditionerModeCooling",
+    "description": "Open air conditioner cooling mode (控制车辆打开空调制冷模式功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调",
+      "制冷"
+    ]
+  },
+  {
+    "name": "OpenAirConditionerModeECO",
+    "description": "Open air conditioner ECO mode (控制车辆打开空调ECO模式功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调"
+    ]
+  },
+  {
+    "name": "OpenAirConditionerSettings",
+    "description": "Close air conditioner settings (关闭空调设置)",
+    "enhanced_examples": [
+      "关闭空调"
+    ]
+  },
+  {
+    "name": "OpenDriverAirConditionerSettings",
+    "description": "Open driver air conditioner settings (打开主驾空调设置)"
+  },
+  {
+    "name": "OpenAirConditionerTemperatureSettings",
+    "description": "Open air conditioner temperature settings (控制车辆打开空调温度设置功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调"
+    ]
+  },
+  {
+    "name": "OpenAirVentElectric",
+    "description": "Toggle [zone] electric air vent (控制车辆打开/关闭[zone]电动出风口功能)"
+  },
+  {
+    "name": "OpenAssist",
+    "description": "Toggle turn signal lane change assist (控制车辆打开/关闭拨杆变道辅助功能)"
+  },
+  {
+    "name": "OpenLaneKeepAssist",
+    "description": "Open lane keep assist (控制车辆打开车道保持辅助功能)"
+  },
+  {
+    "name": "ToggleParkingBrakeAssist",
+    "description": "Toggle parking brake assist (控制车辆打开/关闭泊车制动辅助功能)"
+  },
+  {
+    "name": "ToggleAccelerationAssist",
+    "description": "Toggle误 acceleration抑制 assist (控制车辆打开/关闭误加速抑制辅助功能)"
+  },
+  {
+    "name": "ToggleIntelligentCruiseAssist",
+    "description": "Toggle intelligent cruise assist (控制车辆打开/关闭智能巡航辅助功能)"
+  },
+  {
+    "name": "TogglePilotDrivingAssist",
+    "description": "Toggle pilot driving assist (控制车辆打开/关闭领航驾驶辅助功能)"
+  },
+  {
+    "name": "CloseAssistDrivingdrivingAssistPagesetti",
+    "description": "Close assist driving/driving assist page/settings (关闭辅助驾驶/驾驶辅助页面/设置)"
+  },
+  {
+    "name": "OpenAssistSettings",
+    "description": "Toggle pre-collision assist settings (控制车辆打开/关闭预碰撞辅助设置好功能)"
+  },
+  {
+    "name": "OpenAutoAirConditioner",
+    "description": "Open air conditioner auto circulation (控制车辆打开空调自动循环功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调"
+    ]
+  },
+  {
+    "name": "OpenAutoAirConditionerAntiFog",
+    "description": "Auto activate anti-fog when fog detected, keep AC in AUTO (检测到车内可能起雾，自动激活防起雾模式，空调保持在AUTO状态)"
+  },
+  {
+    "name": "OpenAutoDefogDefrost",
+    "description": "Open auto defog/defrost (控制车辆打开自动除霜除雾功能)"
+  },
+  {
+    "name": "OpenAutoPurificationAir",
+    "description": "Open PM2.5 auto purification reminder (控制车辆打开PM2.5空气自动净化提醒功能)"
+  },
+  {
+    "name": "CloseFullScreenVisibleAndSpeakable",
+    "description": "Close full screen visible and speakable (关闭全画面可见及可说)"
+  },
+  {
+    "name": "OpenBluetooth",
+    "description": "Open Bluetooth/connect phone (打开蓝牙开关/连接电话)"
+  },
+  {
+    "name": "OpenEmotionalResponse",
+    "description": "Open emotional response (打开情感应答)"
+  },
+  {
+    "name": "OpenChildLockSettingsPage",
+    "description": "Open child lock settings page (控制车辆打开儿童锁设置页面功能)"
+  },
+  {
+    "name": "OpenCinemaMode",
+    "description": "Cinema mode enabled (好的，影院模式已开启)"
+  },
+  {
+    "name": "OpenCooling",
+    "description": "Open [zone] rapid cooling (控制车辆打开[zone]极速降温功能)"
+  },
+  {
+    "name": "OpenDesignatedFragrance",
+    "description": "Open designated fragrance (控制车辆打开指定香氛功能)"
+  },
+  {
+    "name": "OpenDisplay",
+    "description": "Close display page/settings (关闭显示页面/设置)"
+  },
+  {
+    "name": "ToggleOtherTrafficSignDisplay",
+    "description": "Toggle other traffic sign display (控制车辆打开关闭其他交通标志显示功能)"
+  },
+  {
+    "name": "OpenDriving",
+    "description": "Open dash cam [switch] (控制车辆打开行车记录仪[开关]功能)"
+  },
+  {
+    "name": "OpenDrivingSettingsPage",
+    "description": "Toggle dash cam settings page (控制车辆打开/关闭行车记录仪设置页面功能)"
+  },
+  {
+    "name": "CloseOnewordDirect",
+    "description": "Close one-word direct (关闭一语直达)"
+  },
+  {
+    "name": "CloseConnectionPagesettings",
+    "description": "Close connection page/settings (关闭连接页面/设置)"
+  },
+  {
+    "name": "OpenFragrance",
+    "description": "Open fragrance (控制车辆打开香氛功能)"
+  },
+  {
+    "name": "OpenFrontAirConditionerDefog",
+    "description": "Open front air conditioner defog (控制车辆打开空调前除雾功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调",
+      "除雾"
+    ]
+  },
+  {
+    "name": "OpenFrontAirConditionerDefrost",
+    "description": "Open front air conditioner defrost (控制车辆打开空调前除霜功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调",
+      "除霜"
+    ]
+  },
+  {
+    "name": "OpenGoddessMode",
+    "description": "Goddess mode enabled (好的，女神模式已开启)"
+  },
+  {
+    "name": "OpenHeat",
+    "description": "Toggle head and neck heating (打开/关闭头颈加热)"
+  },
+  {
+    "name": "OpenHeating",
+    "description": "Open [zone] rapid heating (控制车辆打开[zone]极速升温功能)"
+  },
+  {
+    "name": "OpenHotspot",
+    "description": "Open (/)"
+  },
+  {
+    "name": "OpenInnerAirConditioner",
+    "description": "Open air conditioner inner circulation (控制车辆打开空调内循环功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调"
+    ]
+  },
+  {
+    "name": "OpenLeftRightChildLock",
+    "description": "Open left/right child lock (控制车辆打开左/右儿童锁功能)"
+  },
+  {
+    "name": "OpenLight",
+    "description": "Close light page/settings (关闭灯光页面/设置)",
+    "enhanced_examples": [
+      "关闭灯光"
+    ]
+  },
+  {
+    "name": "CloseLightCreation",
+    "description": "Close light creation (关闭灯光创作、)",
+    "enhanced_examples": [
+      "关闭灯光"
+    ]
+  },
+  {
+    "name": "OpenMain",
+    "description": "Open active seatbelt (将主动式安全带设置项开关开启)"
+  },
+  {
+    "name": "OpenMiddleVoice",
+    "description": "Toggle voice skill center (打开/关闭语音技能中心)"
+  },
+  {
+    "name": "OpenMode",
+    "description": "Toggle detailed/simple mode (控制车辆打开/关闭/切换为详细/简洁模式功能)"
+  },
+  {
+    "name": "CloseProjectionMode",
+    "description": "Close projection mode (关闭放映模式)"
+  },
+  {
+    "name": "ToggleTrailerMode",
+    "description": "Toggle trailer mode (打开/关闭拖车模式)"
+  },
+  {
+    "name": "OpenModeKTV",
+    "description": "KTV mode enabled (好的，KTV模式已开启)"
+  },
+  {
+    "name": "OpenNavigationEarphoneBluetoothPhoneCall",
+    "description": "Open sound volume settings control (/)"
+  },
+  {
+    "name": "OpenOuterAirConditioner",
+    "description": "Open air conditioner outer circulation (控制车辆打开空调外循环功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调"
+    ]
+  },
+  {
+    "name": "OpenOuterVoice",
+    "description": "Close external voice (关闭车外语音)"
+  },
+  {
+    "name": "OpenPage",
+    "description": "Toggle tire pressure page (控制车辆打开/关闭胎压页面功能)"
+  },
+  {
+    "name": "OpenParking",
+    "description": "View vehicle surroundings after parking via phone app (停车后通过手机 app 查看车辆周围信息，快速寻找爱车)"
+  },
+  {
+    "name": "OpenParkingAirConditioner",
+    "description": "Toggle parking air conditioner (控制车辆打开关闭把驻车空调功能)"
+  },
+  {
+    "name": "OpenPurificationModeAir",
+    "description": "Open air purification mode (控制车辆打开空气净化模式功能)"
+  },
+  {
+    "name": "OpenQuickAccess",
+    "description": "Close quick access page/settings (关闭快捷页面/设置)"
+  },
+  {
+    "name": "OpenReadingLightSettings",
+    "description": "Toggle reading light settings (打开/关闭阅读灯设置)",
+    "enhanced_examples": [
+      "阅读灯"
+    ]
+  },
+  {
+    "name": "OpenRear",
+    "description": "Toggle | privacy lock, super lock, sensor tailgate, keyless unlock, two-step unlock, lock auditory feedback, refuel (打开|关闭私密锁、超级锁、感应开启后尾门、无钥匙解锁、两步解锁、闭锁听觉反馈、加油)"
+  },
+  {
+    "name": "OpenRearAirConditionerDefog",
+    "description": "Open rear air conditioner defog (控制车辆打开空调后除雾功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调",
+      "除雾"
+    ]
+  },
+  {
+    "name": "OpenRearAirConditionerDefrost",
+    "description": "Open rear air conditioner defrost (控制车辆打开空调后除霜功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调",
+      "除霜"
+    ]
+  },
+  {
+    "name": "OpenRearDefogHeat",
+    "description": "Open rear window electric heating defog (控制车辆打开后窗电加热除雾功能)"
+  },
+  {
+    "name": "OpenRearRow",
+    "description": "Toggle rear screen (打开/关闭后排屏)"
+  },
+  {
+    "name": "OpenRearRowAirConditioner",
+    "description": "Open rear row air conditioner lock (控制车辆打开后排空调锁功能)"
+  },
+  {
+    "name": "OpenRow2Gesture",
+    "description": "Open second row screen gesture multi-screen broadcast tutorial (打开二排屏手势多屏共播教学)"
+  },
+  {
+    "name": "OpenSecondRowScreenGestureMultimodalInte",
+    "description": "Open second row screen gesture multimodal interaction tutorial (打开二排屏手势多模交互教学)"
+  },
+  {
+    "name": "OpenSecondRowScreenGestureClickConfirmTu",
+    "description": "Open second row screen gesture click confirm tutorial (打开二排屏手势点击确认教学)"
+  },
+  {
+    "name": "OpenRow2PauseGesture",
+    "description": "Open second row screen gesture play/pause tutorial (打开二排屏手势播放暂停教学)"
+  },
+  {
+    "name": "OpenRow2Row2FoldGesture",
+    "description": "Open second row screen gesture fold screen tutorial (打开二排屏手势折叠二排屏教学)"
+  },
+  {
+    "name": "OpenRow2UpGesture",
+    "description": "Open second row screen gesture back tutorial (打开二排屏手势返回上一页教学)"
+  },
+  {
+    "name": "OpenRow2VolumeGesture",
+    "description": "Open second row screen gesture video volume control tutorial (打开二排屏手势视频音量进度控制教学)"
+  },
+  {
+    "name": "OpenScreenCleaning",
+    "description": "Toggle screen cleaning (打开/关闭屏幕清洁)"
+  },
+  {
+    "name": "OpenSeatWelcomeMainAux",
+    "description": "Close passenger seat welcome (关闭副驾座椅迎宾)",
+    "enhanced_examples": [
+      "副驾座椅"
+    ]
+  },
+  {
+    "name": "OpenSentryMode",
+    "description": "Open sentry mode (打开哨兵模式)"
+  },
+  {
+    "name": "OpenSentryModeSettings",
+    "description": "Open sentry mode settings (打开哨兵模式设置)"
+  },
+  {
+    "name": "OpenSettings",
+    "description": "Close external speaker settings (关闭车外扬声器设置)"
+  },
+  {
+    "name": "OpenEnergyRecoverySettings",
+    "description": "Open energy recovery settings (打开能量回收设置)"
+  },
+  {
+    "name": "OpenSettings2",
+    "description": "Open settings (控制车辆打开设置功能)"
+  },
+  {
+    "name": "OpenSettingsHotspot",
+    "description": "Open settings (/)"
+  },
+  {
+    "name": "OpenSettingsPage",
+    "description": "Toggle parking high-level function page/settings (控制车辆打开/关闭泊车高阶功能页面/设置功能)"
+  },
+  {
+    "name": "OpenSettingsPageFragrance",
+    "description": "Open fragrance settings page (控制车辆打开香氛设置页面功能)"
+  },
+  {
+    "name": "OpenSideMirrorDefogHeat",
+    "description": "Open side mirror heating defog (控制车辆打开后视镜加热除雾功能)"
+  },
+  {
+    "name": "OpenSuspension",
+    "description": "Open suspension easy loading (控制车辆打开悬架方便装载功能)"
+  },
+  {
+    "name": "OpenSuspensionMode",
+    "description": "Toggle suspension maintenance mode (控制车辆打开/关闭悬架维修模式功能)"
+  },
+  {
+    "name": "OpenSuspensionEasyLoadingMode",
+    "description": "Open suspension easy loading mode (控制车辆打开悬架轻松载物模式功能)"
+  },
+  {
+    "name": "OpenSuspensionPauseMiddle",
+    "description": "Pause/Continue open suspension easy loading (控制车辆中途暂停/继续打开悬架方便装载功能)"
+  },
+  {
+    "name": "OpenSuspensionSettingsPage",
+    "description": "Toggle suspension settings page (控制车辆打开/关闭悬架设置页面功能)"
+  },
+  {
+    "name": "OpenSuspensionUpDown",
+    "description": "Toggle suspension easy entry/exit (控制车辆打开/关闭悬架方便上下车功能)"
+  },
+  {
+    "name": "OpenSyncAirConditionerTemperature",
+    "description": "Open air conditioner temperature sync (控制车辆打开空调温度同步功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调"
+    ]
+  },
+  {
+    "name": "OpenSystemSettings",
+    "description": "Close system settings/settings (关闭系统设置/设置)"
+  },
+  {
+    "name": "OpenQuickAccessvehicleControldrivingdriv",
+    "description": "Open quick access|vehicle control|driving/driving control|light/light settings|assist driving/driving assist settings/page|voice/voice settings|display/display settings|sound|connection|my vehicle (打开快捷|车辆控制|驾驶/驾驶操控|灯光/灯光设置|辅助驾驶/驾驶辅助设置/页面|语音/语音设置|显示/显示设置|声音|连接|我的车辆)"
+  },
+  {
+    "name": "OpenTrunkRear",
+    "description": "Toggle trunk light (行李灯) (打开/关闭后备箱灯(行李灯))"
+  },
+  {
+    "name": "OpenUpDownLeftRightRow2Gesture",
+    "description": "Open second row screen gesture up/down/left/right page tutorial (打开二排屏手势上下左右翻页教学)"
+  },
+  {
+    "name": "OpenVehicle",
+    "description": "Close my vehicle page/settings (关闭我的车辆页面/设置)"
+  },
+  {
+    "name": "CloseVehicleControlPagesettings",
+    "description": "Close vehicle control page/settings (关闭车辆控制页面/设置)"
+  },
+  {
+    "name": "OpenVoice",
+    "description": "Close voice page/settings (关闭语音页面/设置)"
+  },
+  {
+    "name": "OpenWakeUp",
+    "description": "Close always-on wake (关闭全时免唤醒)"
+  },
+  {
+    "name": "OpenWakeUpVoice",
+    "description": "Close voice wake (关闭语音唤醒)"
+  },
+  {
+    "name": "OpenWiFi",
+    "description": "Open WI-FI (/)"
+  },
+  {
+    "name": "OpenWiFiSettings",
+    "description": "Open WI-FI settings (/)"
+  },
+  {
+    "name": "OpenWindDirectionAirConditionerSettings",
+    "description": "Open air conditioner wind direction settings (控制车辆打开空调风向设置功能)",
+    "enhanced_examples": [
+      "打开空调",
+      "开空调"
+    ]
+  },
+  {
+    "name": "OpenWindow",
+    "description": "Close window lock (车窗锁关闭)"
+  },
+  {
+    "name": "OpenWindowSettings",
+    "description": "Close window lock settings (车窗锁设置关闭)"
+  },
+  {
+    "name": "OpenWirelessCharging",
+    "description": "Open wireless charging (打开手机无线充电)"
+  },
+  {
+    "name": "OpenWirelessChargingLeftRightSideSide",
+    "description": "Execute left/right wireless charging on (执行左侧/右侧无线充电开启操作)"
+  },
+  {
+    "name": "CancelMaintenanceOrder",
+    "description": "Cancel maintenance order (控制车辆取消维保订单功能)"
+  },
+  {
+    "name": "CancelOrder",
+    "description": "Cancel order (控制车辆取消订单功能)"
+  },
+  {
+    "name": "OrderDetails",
+    "description": "View maintenance order details (控制车辆维保订单详情功能)"
+  },
+  {
+    "name": "OrderDetailsReservation",
+    "description": "View reservation order details (控制车辆预约订单详情功能)"
+  },
+  {
+    "name": "OrderList",
+    "description": "View maintenance order list (控制车辆维保订单列表功能)"
+  },
+  {
+    "name": "OrderListReservation",
+    "description": "View reservation order list (控制车辆预约订单列表功能)"
+  },
+  {
+    "name": "OrderReservation",
+    "description": "Cancel reservation order (控制车辆取消预约订单功能)"
+  },
+  {
+    "name": "ModifyReservationOrder",
+    "description": "Modify reservation order (控制车辆变更预约订单功能)"
+  },
+  {
+    "name": "OuterView",
+    "description": "Record exterior video (控制车辆车外风景录像功能)"
+  },
+  {
+    "name": "OuterAir",
+    "description": "Query exterior air quality (控制车辆车外空气怎么样功能)"
+  },
+  {
+    "name": "OuterOuter",
+    "description": "Take exterior photo (控制车辆车外风景抓拍功能)"
+  },
+  {
+    "name": "OuterPromptSound",
+    "description": "Close external low speed prompt sound (关闭车外低速提示音)"
+  },
+  {
+    "name": "PageFunction",
+    "description": "Lane safety page (控制车辆车道安全页面功能)"
+  },
+  {
+    "name": "Panoramic",
+    "description": "Close Wanos virtual panoramic sound (关闭Wanos虚拟全景声开关)"
+  },
+  {
+    "name": "ToggleDolbyPanoramicSound",
+    "description": "Toggle Dolby panoramic sound (打开/关闭杜比全景声)"
+  },
+  {
+    "name": "ParkingDisplay",
+    "description": "Close cute gaze switch (关闭可爱注视开关)"
+  },
+  {
+    "name": "ParkingPowerGen",
+    "description": "Close parking power generation (关闭驻车发电)"
+  },
+  {
+    "name": "PauseFunction",
+    "description": "Pause ground door (暂停地门)"
+  },
+  {
+    "name": "PauseSkyDoor",
+    "description": "Pause sky door (暂停天门)"
+  },
+  {
+    "name": "PauseTrunkRear",
+    "description": "Pause trunk (暂停后备箱)"
+  },
+  {
+    "name": "Pedal",
+    "description": "Set brake pedal to comfortable/sport (制动踏板设为舒适/运动)"
+  },
+  {
+    "name": "PedalPedalWelcomeElectric",
+    "description": "Toggle welcome pedal|electric pedal (迎宾踏板|电动踏板开关)"
+  },
+  {
+    "name": "Permission",
+    "description": "Close sensitive permission usage (关闭敏感权限使用)"
+  },
+  {
+    "name": "ClosePermissionManagement",
+    "description": "Close permission management (关闭权限管理)"
+  },
+  {
+    "name": "PermissionApplication",
+    "description": "Close app permission management (关闭应用权限管理)"
+  },
+  {
+    "name": "PhoneCallVolume",
+    "description": "Close call volume settings (关闭通话音量设置)"
+  },
+  {
+    "name": "PhoneRescue",
+    "description": "Phone rescue (控制车辆电话救援功能)"
+  },
+  {
+    "name": "PhoneRingtoneVolume",
+    "description": "Close custom frequency settings (关闭自定义调频设置)"
+  },
+  {
+    "name": "PlayVehiclePrompt",
+    "description": "Play greeting|yield pedestrian|excuse me|thanks|safety reminder (播放打个招呼/礼让行人/借过提醒/礼让感谢/安全提醒)"
+  },
+  {
+    "name": "PlugInACCharging",
+    "description": "Set charging to 90% (充电设置到90%)"
+  },
+  {
+    "name": "PromptSound",
+    "description": "Close safety alarm sound (关闭安全警报音)"
+  },
+  {
+    "name": "ClosePromptSoundSettingsPage",
+    "description": "Close prompt sound settings page (关闭提示音设置页)"
+  },
+  {
+    "name": "PromptSoundLockVehicle",
+    "description": "Toggle lock prompt sound (打开/关闭锁车提示音)"
+  },
+  {
+    "name": "QueryInfo",
+    "description": "Query [location] tire pressure (控制车辆位置胎压查询功能)"
+  },
+  {
+    "name": "QueryChildLockStatus",
+    "description": "Query child lock status (查询儿童锁开关状态)"
+  },
+  {
+    "name": "RightFrontTirePressure",
+    "description": "Right front tire pressure (右前胎压)"
+  },
+  {
+    "name": "QueryBatteryLevel",
+    "description": "Query remaining fuel (查询剩余油量)"
+  },
+  {
+    "name": "QueryCharging",
+    "description": "Query time to full charge (还需要多久充满电)"
+  },
+  {
+    "name": "QueryCurrentAirflowAirConditioner",
+    "description": "Front row/driver/passenger/left front/right front first row = first row air conditioner (前排/主驾/副驾/左前/右前第一排=一排空调)"
+  },
+  {
+    "name": "QueryEntertainment",
+    "description": "Query second row entertainment screen status (查询二排娱乐屏开关状态)"
+  },
+  {
+    "name": "QueryTirePressure",
+    "description": "Query tire pressure (控制车辆胎压查询功能)"
+  },
+  {
+    "name": "QueryCurrentTirePressureStatus",
+    "description": "Query current tire pressure status (whole vehicle) (当前胎压状态查询（全车）)"
+  },
+  {
+    "name": "QueryFragrance",
+    "description": "Query current fragrance switch status (用户意图查询当前香氛开关状态)"
+  },
+  {
+    "name": "QueryFragranceScent",
+    "description": "Query current fragrance scent in use (用户意图查询正在使用的香氛味道)"
+  },
+  {
+    "name": "QueryHotspot",
+    "description": "Query hotspot password (查询热点密码)"
+  },
+  {
+    "name": "QueryMode",
+    "description": "Query trailer mode status (查询拖车模式开关状态)"
+  },
+  {
+    "name": "QuerySteeringAssistMode",
+    "description": "Query steering assist mode (查询转向助力模式)"
+  },
+  {
+    "name": "QueryRescueDetails",
+    "description": "Query rescue details page (控制车辆查询救援详情页功能)"
+  },
+  {
+    "name": "QueryRescueList",
+    "description": "Query rescue list (控制车辆查询救援列表功能)"
+  },
+  {
+    "name": "QuerySeatHeat",
+    "description": "Query seat heating status (查询座椅加热开关状态)",
+    "enhanced_examples": [
+      "座椅加热"
+    ]
+  },
+  {
+    "name": "QuerySeatMassage",
+    "description": "Query seat massage status (查询座椅按摩开关状态)",
+    "enhanced_examples": [
+      "座椅按摩"
+    ]
+  },
+  {
+    "name": "QuerySeatVentilation",
+    "description": "Query seat ventilation status (查询座椅通风开关状态)",
+    "enhanced_examples": [
+      "座椅通风"
+    ]
+  },
+  {
+    "name": "QuerySideMirror",
+    "description": "Query side mirror status (查询后视镜开关状态)"
+  },
+  {
+    "name": "QuerySteeringWheelGearPositionHeat",
+    "description": "Query steering wheel heating gear (查询方向盘加热挡位)"
+  },
+  {
+    "name": "QuerySteeringWheelHeat",
+    "description": "Query steering wheel heating status (查询方向盘加热开关状态)"
+  },
+  {
+    "name": "QuerySunroofOpening",
+    "description": "Query sunroof opening (查询天幕开度)"
+  },
+  {
+    "name": "QuerySunshadeOpening",
+    "description": "Query sunshade opening (查询遮阳帘开度)"
+  },
+  {
+    "name": "QueryTripMileage",
+    "description": "Query trip duration (查一下/查询本次里程行驶时长)"
+  },
+  {
+    "name": "QueryTripMileageTime",
+    "description": "Query trip mileage duration (查一下/查询小计里程行驶时长)"
+  },
+  {
+    "name": "QueryTrunkRear",
+    "description": "Query trunk status (查询后备箱开关状态)"
+  },
+  {
+    "name": "QueryVolume",
+    "description": "Query multimedia volume (查询多媒体音量)"
+  },
+  {
+    "name": "QueryWiFi",
+    "description": "Query Wi-Fi password (查询Wi-Fi密码)"
+  },
+  {
+    "name": "QueryWindowOpening",
+    "description": "Query window opening (查询车窗开度)"
+  },
+  {
+    "name": "QueryWirelessCharging",
+    "description": "Query wireless charging status (查询无线充电开关状态)"
+  },
+  {
+    "name": "RCTASideAssist",
+    "description": "Toggle RCTA side assist (控制车辆RCTA倒车侧向辅助开关功能)"
+  },
+  {
+    "name": "RCWRearWarning",
+    "description": "Toggle RCW rear collision warning (控制车辆RCW后碰撞预警开关功能)"
+  },
+  {
+    "name": "RadarAlarmVolume",
+    "description": "Adjust radar alarm volume (控制车辆雷达报警音量功能)"
+  },
+  {
+    "name": "RearAngle",
+    "description": "Set rear wheel steering angle to off/small/medium/full (后轮转向角度利用幅度切换关/小幅/中幅/全幅)"
+  },
+  {
+    "name": "RearDown",
+    "description": "Take rear photo (控制车辆拍下后面照片功能)"
+  },
+  {
+    "name": "RearDownRear",
+    "description": "Take rear video (控制车辆拍下后面视频功能)"
+  },
+  {
+    "name": "RearRow",
+    "description": "Toggle rear screen collision reminder (打开/关闭后排屏防碰撞提醒功能)"
+  },
+  {
+    "name": "RearSideAssist",
+    "description": "Toggle rear side blind spot assist (控制车辆侧后方盲区影像辅助开关功能)"
+  },
+  {
+    "name": "RearWarning",
+    "description": "Toggle rear cross traffic warning (控制车辆后方横向来车预警开关功能)"
+  },
+  {
+    "name": "RearWarningRear",
+    "description": "Toggle rear collision warning (控制车辆后碰撞预警开关功能)"
+  },
+  {
+    "name": "ResetTripMileage",
+    "description": "Reset trip mileage (小计里程重置数据)"
+  },
+  {
+    "name": "RestSpace",
+    "description": "Rest space closed (休憩空间已关闭)"
+  },
+  {
+    "name": "ReturnToDesktop",
+    "description": "Return to desktop (回到桌面)"
+  },
+  {
+    "name": "RhythmScreen",
+    "description": "Close music rhythm (关闭音乐律动)"
+  },
+  {
+    "name": "RightDown",
+    "description": "Take right photo (控制车辆拍下右边照片功能)"
+  },
+  {
+    "name": "RightDownRight",
+    "description": "Take right video (控制车辆拍下右边视频功能)"
+  },
+  {
+    "name": "Row1AirConditioner",
+    "description": "Toggle first row air conditioner (控制车辆一排空调功能)"
+  },
+  {
+    "name": "Row2AirConditioner",
+    "description": "Toggle second row air conditioner AUTO (控制车辆二排空调AUTO功能)"
+  },
+  {
+    "name": "Row2Entertainment",
+    "description": "Execute second row entertainment screen off (执行二排娱乐屏关闭操作)"
+  },
+  {
+    "name": "Row3AirConditioner",
+    "description": "Toggle third row air conditioner (控制车辆三排空调功能)"
+  },
+  {
+    "name": "ScreenOff",
+    "description": "Close second row screen (关闭二排屏幕)"
+  },
+  {
+    "name": "Screensaver",
+    "description": "Toggle | screensaver (settings) (打开|关闭屏保(设置))"
+  },
+  {
+    "name": "SeatDynamic",
+    "description": "Toggle seat dynamic mode (打开/关闭座椅动态模式)"
+  },
+  {
+    "name": "SeatFold",
+    "description": "Toggle seat fold (座椅折叠打开/关闭)"
+  },
+  {
+    "name": "SeatHeat",
+    "description": "Set [前排/后排/左侧/右侧/全车] seat heating to low/medium/high/auto ([前排/后排/左侧/右侧/全车]座椅加热开到低/中/高/自动挡)",
+    "enhanced_examples": [
+      "座椅加热"
+    ]
+  },
+  {
+    "name": "SeatMain",
+    "description": "Toggle driver seat easy entry (打开/关闭主驾座椅方便进出)",
+    "enhanced_examples": [
+      "主驾座椅"
+    ]
+  },
+  {
+    "name": "SeatMassage",
+    "description": "Set [前排/后排/左侧/右侧/全车] seat massage to low/medium/high/auto ([前排/后排/左侧/右侧/全车]座椅按摩开到低/中/高/自动挡)",
+    "enhanced_examples": [
+      "座椅按摩"
+    ]
+  },
+  {
+    "name": "SeatMemory",
+    "description": "Previous/next (上一个/下一个)"
+  },
+  {
+    "name": "SeatRestore",
+    "description": "Restore seat position (座椅位置恢复)"
+  },
+  {
+    "name": "SeatRow2",
+    "description": "Restore both seats to 0 degrees (两侧座椅同时恢复至0度)"
+  },
+  {
+    "name": "SeatSide",
+    "description": "Adjust seat side wing to strong/weak (座椅侧翼+调到强/弱)"
+  },
+  {
+    "name": "SeatVentilation",
+    "description": "Set [前排/后排/左侧/右侧/全车] seat ventilation to low/medium/high/auto ([前排/后排/左侧/右侧/全车]座椅通风开到低/中/高/自动挡)",
+    "enhanced_examples": [
+      "座椅通风"
+    ]
+  },
+  {
+    "name": "Sentry",
+    "description": "View sentry mode videos (/)"
+  },
+  {
+    "name": "ServiceRescue",
+    "description": "Rescue service (控制车辆救援服务功能)"
+  },
+  {
+    "name": "VehicleSettings",
+    "description": "Toggle car key settings (打开/关闭车锁钥匙设置)"
+  },
+  {
+    "name": "Set12HourFormat",
+    "description": "12-hour format (12小时制)"
+  },
+  {
+    "name": "SetAgileSteering",
+    "description": "Close agile steering (关闭敏捷转向)"
+  },
+  {
+    "name": "SetAirVentMode",
+    "description": "Set [zone] air vent mode (控制车辆[zone]设置出风口模式功能)"
+  },
+  {
+    "name": "SetAlarm",
+    "description": "Set alarm offset value (控制车辆设置报警偏移值功能)"
+  },
+  {
+    "name": "SetApproachLighting",
+    "description": "Close approach lighting (关闭接近照明)"
+  },
+  {
+    "name": "SetBatteryChargeLevel",
+    "description": "Set battery hold level to target (将电量保持值设置为目标值)"
+  },
+  {
+    "name": "SetChargingReservation",
+    "description": "Set charging reservation start time (帮我设置预约充电开始时间)"
+  },
+  {
+    "name": "SetChargingReservationEndTime3Oclock",
+    "description": "Set charging reservation end time to 3 o'clock (设置预约充电的结束时间为3点)"
+  },
+  {
+    "name": "SetChargingReset",
+    "description": "Close charging reset (关闭补能重置)"
+  },
+  {
+    "name": "SetComfortableBraking",
+    "description": "Toggle comfortable braking CST (打开/关闭舒适制动CST)"
+  },
+  {
+    "name": "SetCorneringLight",
+    "description": "Close cornering light (关闭弯道照明灯)"
+  },
+  {
+    "name": "SetDesktopPreference",
+    "description": "Close desktop preference (关闭桌面偏好)"
+  },
+  {
+    "name": "SetDischarge",
+    "description": "Set discharge type to V2L (设置放电类型为V2L)"
+  },
+  {
+    "name": "SetDoorOpenVolumeLower",
+    "description": "Set door open volume lower (控制车辆开门压低媒体音功能)"
+  },
+  {
+    "name": "SetDriverDetection",
+    "description": "Toggle driver detection (控制车辆驾驶员状态检测功能)"
+  },
+  {
+    "name": "SetDriverMonitoring",
+    "description": "Toggle driver monitoring (控制车辆驾驶员状态监测开关功能)"
+  },
+  {
+    "name": "SetEnergyConsumptionCurve",
+    "description": "Switch energy consumption curve to year (能耗曲线切换为年)"
+  },
+  {
+    "name": "SetEnergyManagement",
+    "description": "Toggle energy management (打开/关闭能量管理)"
+  },
+  {
+    "name": "SetEntertainment",
+    "description": "Toggle | second row entertainment screen adjustment/settings page (打开|关闭二排娱乐屏调节/设置页)"
+  },
+  {
+    "name": "SetExtremeRangeMode",
+    "description": "Close extreme range mode (关闭极致续航)"
+  },
+  {
+    "name": "SetFaultDiagnosis",
+    "description": "Initiate fault diagnosis (控制车辆发起故障诊断功能)"
+  },
+  {
+    "name": "SetFrontWarning",
+    "description": "Set front collision warning timing (控制车辆前碰撞预警时机设置功能)"
+  },
+  {
+    "name": "SetGeelyLifeMode",
+    "description": "Toggle Geely life mode (控制车辆吉利美好生活功能)"
+  },
+  {
+    "name": "SetHUDMode",
+    "description": "Set HUD to AR/minimal/2D/3D/map/multi-lane (HUD设置为AR/极简/2D/3D/地图/多车道)"
+  },
+  {
+    "name": "SetHillDescentControl",
+    "description": "Close hill descent control (关闭陡坡缓降)"
+  },
+  {
+    "name": "SetMapView",
+    "description": "Toggle map view (打开/关闭地图视图)"
+  },
+  {
+    "name": "SetMileageStatistics",
+    "description": "Toggle mileage statistics (打开/关闭里程统计)"
+  },
+  {
+    "name": "SetMode",
+    "description": "Set speed limit recognition reminder mode (控制车辆设置限速信息识别提醒模式功能)"
+  },
+  {
+    "name": "SetModeAssist",
+    "description": "Set LCA lane change assist mode (控制车辆设置LCA变道辅助模式功能)"
+  },
+  {
+    "name": "SetModeWarning",
+    "description": "Set lane departure warning mode (控制车辆设置车道偏离预警模式功能)"
+  },
+  {
+    "name": "SetMusicRhythm",
+    "description": "Close tech belt music rhythm (关闭科技带音乐随动(音乐律动))"
+  },
+  {
+    "name": "SetParkingAssist",
+    "description": "Continue parking (继续泊车)"
+  },
+  {
+    "name": "SetParkingReset",
+    "description": "Close parking reset (关闭停车重置)"
+  },
+  {
+    "name": "SetPowerMileageProtection",
+    "description": "Close power mileage protection (关闭供电里程保护)"
+  },
+  {
+    "name": "SetPowerOutlet",
+    "description": "Close power outlet (关闭电源插座)"
+  },
+  {
+    "name": "SetPrivacyMode",
+    "description": "Close privacy mode settings (关闭隐私模式设置)"
+  },
+  {
+    "name": "SetRearRow",
+    "description": "Toggle | rear screen adjustment/settings page (打开|关闭后排屏调节/设置页)"
+  },
+  {
+    "name": "SetRemoteParking",
+    "description": "Remote parking (控制车辆远程挪车功能)"
+  },
+  {
+    "name": "SetSafetyEnhancement",
+    "description": "Toggle safety enhancement (控制车辆安全及体验提升功能)"
+  },
+  {
+    "name": "SetSeat",
+    "description": "Set passenger seat easy entry to off/exit only/exit+entry (副驾座椅方便进出设为关闭/仅离车/离车+上车)",
+    "enhanced_examples": [
+      "副驾座椅"
+    ]
+  },
+  {
+    "name": "SetSideMirrorPage",
+    "description": "Toggle side mirror settings page (打开/关闭后视镜设置页面)"
+  },
+  {
+    "name": "SetSmartReminder",
+    "description": "Toggle smart reminder (控制车辆智能提醒开关功能)"
+  },
+  {
+    "name": "SetSpeedLimitRecognition",
+    "description": "Toggle speed limit recognition (控制车辆限速信息识别开关功能)"
+  },
+  {
+    "name": "SetSunroofSunroof",
+    "description": "Toggle sunroof settings page (打开/关闭天窗天幕设置页)",
+    "enhanced_examples": [
+      "关闭天窗"
+    ]
+  },
+  {
+    "name": "SetSunshadeSunroof",
+    "description": "Toggle sunshade settings page (打开/关闭天窗遮阳帘设置页)",
+    "enhanced_examples": [
+      "关闭天窗"
+    ]
+  },
+  {
+    "name": "SetSuperRangeMode",
+    "description": "Close super range mode (关闭超级续航)"
+  },
+  {
+    "name": "SetSuspension",
+    "description": "Set suspension damping (控制车辆设定悬架阻尼功能)"
+  },
+  {
+    "name": "OpenComfortSuspensionopenSportSuspension",
+    "description": "Open comfort suspension/open sport suspension (打开舒适悬架/打开运动悬架)"
+  },
+  {
+    "name": "SetSuspensionHeight",
+    "description": "Set suspension height (控制车辆设定悬架高度功能)"
+  },
+  {
+    "name": "SetTimeFormat",
+    "description": "Set time format to 12-hour (将时间设置为十二小时制)"
+  },
+  {
+    "name": "SetTrafficLightSoundAlert",
+    "description": "Toggle traffic light sound alert (控制车辆交通灯声音提醒功能)"
+  },
+  {
+    "name": "SetVectorManeuver",
+    "description": "Close vector maneuver (关闭矢量机动)"
+  },
+  {
+    "name": "SetVehicleMaintenanceCheck",
+    "description": "Vehicle maintenance check (控制车辆整车保养检测功能)"
+  },
+  {
+    "name": "SetVehiclePowerSupply",
+    "description": "Close vehicle power supply (关闭对车供电)"
+  },
+  {
+    "name": "SetVictoryMode",
+    "description": "Toggle victory mode (控制车辆大吉大利功能)"
+  },
+  {
+    "name": "SetVoicePrint",
+    "description": "Close voice print settings (关闭声纹设置)"
+  },
+  {
+    "name": "SetVolumeBalance",
+    "description": "Set volume balance to -10 (将音量平衡设置为-10)"
+  },
+  {
+    "name": "SetWakeUp",
+    "description": "Close wake word settings (关闭唤醒词设置)"
+  },
+  {
+    "name": "SetWiperControl",
+    "description": "Default front wiper when direction not specified (用户指令中未指定方位时，默认前雨刮)"
+  },
+  {
+    "name": "SideMirrorAutoInner",
+    "description": "Toggle inner rear mirror auto anti-glare (打开/关闭内后视镜自动防眩目)"
+  },
+  {
+    "name": "SideMirrorDown",
+    "description": "Set reverse mirror tilt to xx (倒车后视镜下翻设为xx)"
+  },
+  {
+    "name": "SideMirrorFold",
+    "description": "Fold/unfold side mirror (后视镜折叠/展开)"
+  },
+  {
+    "name": "SideMirrorFoldLockVehicle",
+    "description": "Toggle side mirror fold on lock (打开/关闭锁车时后视镜折叠)"
+  },
+  {
+    "name": "SideMirrorOuter",
+    "description": "Toggle side mirror tilt on reverse (打开/关闭倒车时外后视镜倾斜)",
+    "enhanced_examples": [
+      "外后视镜"
+    ]
+  },
+  {
+    "name": "SideMirrorStreaming",
+    "description": "Toggle streaming rear mirror (打开/关闭流媒体后视镜)"
+  },
+  {
+    "name": "SmallWindowMode",
+    "description": "Toggle small window mode (控制车辆小窗模式功能)"
+  },
+  {
+    "name": "SnowMode",
+    "description": "Toggle snow mode (打开/关闭雪地模式)"
+  },
+  {
+    "name": "SoundEffect",
+    "description": "Play tiger/lion/cat/whistle/hawker/super engine/tractor/old village chief sound (播放老虎声/狮子声/猫咪声/口哨声/叫卖声/超跑引擎/拖拉机/老村长)"
+  },
+  {
+    "name": "ToggleSmartSoundEffect",
+    "description": "Toggle smart sound effect (打开/关闭智能音效)"
+  },
+  {
+    "name": "SoundEffectSpace",
+    "description": "Sound effect space (1、case)"
+  },
+  {
+    "name": "SteeringWheel",
+    "description": "Close steering wheel assist settings (关闭方向盘助力设置)"
+  },
+  {
+    "name": "SteeringWheelButton",
+    "description": "Toggle steering wheel button custom page (打开/关闭方向盘按键自定义页)"
+  },
+  {
+    "name": "SteeringWheelHeat",
+    "description": "Toggle steering wheel heating (打开/关闭方向盘加热)"
+  },
+  {
+    "name": "SteeringWheelPause",
+    "description": "Pause moving steering wheel (暂停移动方向盘)"
+  },
+  {
+    "name": "SteeringWheelTemperature",
+    "description": "Open steering wheel temperature settings (打开方向盘温度设置)"
+  },
+  {
+    "name": "Sunroof",
+    "description": "Open | close sunroof (打开|关闭天窗)",
+    "enhanced_examples": [
+      "关闭天窗"
+    ]
+  },
+  {
+    "name": "SunroofTiltUp",
+    "description": "Tilt sunroof up (天窗翘起+一点)"
+  },
+  {
+    "name": "Sunshade",
+    "description": "Open/close sunshade (打开/关闭(遮阳帘|天窗遮阳帘|滑动天窗遮阳帘|全景式滑动天窗遮阳帘))"
+  },
+  {
+    "name": "SuspensionOneKey",
+    "description": "Suspension one-key leveling (控制车辆悬架一键调平功能)"
+  },
+  {
+    "name": "SwitchAnyVoice",
+    "description": "Switch to Mandarin mode (切换为普通话模式)"
+  },
+  {
+    "name": "SwitchBluetoothBluetoothPhone",
+    "description": "Limited to Bluetooth phone (限定蓝牙电话中可切换)"
+  },
+  {
+    "name": "SwitchFragrance",
+    "description": "Switch fragrance to Xth (控制车辆香氛切换为第X个功能)"
+  },
+  {
+    "name": "SwitchParkingAirConditionerMode",
+    "description": "Switch parking air conditioner mode (控制车辆驻车空调模式切换功能)"
+  },
+  {
+    "name": "SwitchRearWarning",
+    "description": "Switch rear cross traffic warning mode (控制车辆后方横向来车预警提醒方式切换功能)"
+  },
+  {
+    "name": "SwitchSoundEffectMode",
+    "description": "Toggle driving mode switch sound effect (打开/关闭驾驶模式切换音效)"
+  },
+  {
+    "name": "SwitchWarning",
+    "description": "Switch lane change warning mode (控制车辆变道安全预警方式切换功能)"
+  },
+  {
+    "name": "SwitchLaneDepartureWarningMode",
+    "description": "Switch lane departure warning mode (控制车辆车道偏离预警方式切换功能)"
+  },
+  {
+    "name": "SystemVolume",
+    "description": "Close sound (关闭声音)"
+  },
+  {
+    "name": "TargetCharging",
+    "description": "Adjust target charging lower (将目标充电量调低一点)"
+  },
+  {
+    "name": "ToggleRearDoor",
+    "description": "Open/close ground door (打开/关闭地门)"
+  },
+  {
+    "name": "ToggleSunroof",
+    "description": "Open/close sky door (打开/关闭天门)"
+  },
+  {
+    "name": "TouchScreenSound",
+    "description": "Close touch screen sound (关闭触摸屏声音)"
+  },
+  {
+    "name": "TravelReservation",
+    "description": "Close cabin comfort (关闭座舱舒适)"
+  },
+  {
+    "name": "TrunkRear",
+    "description": "Open/close trunk (打开/关闭后备箱)",
+    "enhanced_examples": [
+      "关闭后备箱"
+    ]
+  },
+  {
+    "name": "TrunkRearHeight",
+    "description": "Set trunk opening height to 60%/70%/80%90%100% (后备箱开启高度设置为 60%/70%/80%90%100%)"
+  },
+  {
+    "name": "UpChildLock",
+    "description": "Lock [zone] child lock (控制车辆锁上[zone]儿童锁功能)"
+  },
+  {
+    "name": "UpFragrance",
+    "description": "Switch to previous fragrance (控制车辆上一个香氛功能)"
+  },
+  {
+    "name": "V2LDischarge",
+    "description": "Set discharge type to V2V (设置放电类型为V2V)"
+  },
+  {
+    "name": "VoiceDrawing",
+    "description": "Convert voice command to text and pass to AI album to generate image (通过语音指令\"我要画……\"将语音指令内容转化成文字透传给AI相册，通过AI相册算法解析生成图像)"
+  },
+  {
+    "name": "VoiceScreenDrawingGestureImage",
+    "description": "Convert voice command to text and pass to AI graffiti to generate image (AI涂鸦使用过程中，在手势/屏幕涂鸦完成后的语音录入页将语音指令内容转化成文字透传给AI涂鸦，通过AI涂鸦算法解析生成图像)"
+  },
+  {
+    "name": "Volume",
+    "description": "Toggle speed compensated volume (控制车辆音量随车速补偿功能)"
+  },
+  {
+    "name": "VolumeVoice",
+    "description": "Close voice sound (关闭语音声音)"
+  },
+  {
+    "name": "Warning",
+    "description": "Toggle lane departure warning (控制车辆车道偏离预警开关功能)"
+  },
+  {
+    "name": "WelcomeOuter",
+    "description": "Close external welcome light (关闭车外迎宾灯)"
+  },
+  {
+    "name": "WelcomePage",
+    "description": "Close welcome light effect page (关闭迎宾灯效页面)"
+  },
+  {
+    "name": "WholeVehicleLight",
+    "description": "Toggle whole vehicle lights/all lights (打开/关闭全车灯光/车辆所有灯光)"
+  },
+  {
+    "name": "Window",
+    "description": "Open/close window (打开/关闭车窗)",
+    "enhanced_examples": [
+      "关闭车窗"
+    ]
+  },
+  {
+    "name": "WindowMultiple",
+    "description": "Execute multiple window open operations (执行多个车窗开启操作)"
+  },
+  {
+    "name": "WirelessCharging",
+    "description": "Close [location] wireless charging ([location]关闭无线充电)"
+  }
+]

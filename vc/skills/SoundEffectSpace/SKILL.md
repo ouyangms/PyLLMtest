@@ -1,0 +1,120 @@
+---
+name: SoundEffectSpace
+description: Sound effect space (1、case)
+---
+
+## 功能说明
+- 1、case
+- 1、功能已关闭
+- 1、功能已关闭
+- 宠物模式
+- 执行动作：关闭虚拟场景设置页面
+- 执行动作：打开虚拟场景设置页面
+
+## 调用逻辑
+1. **意图解析**：系统自动识别用户指令中的操作意图和参数
+2. **参数提取**：从用户自然语言中提取相关参数
+3. **工具调用**：调用车辆控制工具执行相应操作
+
+## 参数规范
+用户输入自然语言指令后，LLM 需要提取参数并输出以下格式：
+
+```json
+{
+    "api": "sys.car.crl",
+    "param": {
+        "action": "打开",
+        "function": "虚拟场馆",
+        "page": "设置",
+        "customInnerType": "nativeCommand"
+    }
+}
+```
+
+### 参数说明
+
+| 字段 | 类型 | 说明 | 示例值 |
+|------|------|------|--------|
+| `action` | string | action | `打开` |
+| `function` | string | function | `虚拟场馆` |
+| `page` | string | page | `设置` |
+| `customInnerType` | string | customInnerType | `nativeCommand` |
+
+## 调用示例
+
+### 示例 1
+**用户输入**: 关闭宠物模式
+
+```json
+{
+    "api": "sys.car.crl",
+    "param": {
+        "action": "关闭",
+        "function": "虚拟场馆",
+        "page": "设置",
+        "customInnerType": "nativeCommand"
+    }
+}
+```
+
+### 示例 2
+**用户输入**: 关闭录音棚音效
+
+```json
+{
+    "api": "sys.car.crl",
+    "param": {
+        "action": "打开",
+        "function": "虚拟场馆",
+        "customInnerType": "nativeCommand"
+    }
+}
+```
+
+### 示例 3
+**用户输入**: 关闭歌剧院音效
+
+```json
+{
+    "api": "sys.car.crl",
+    "param": {
+        "action": "打开",
+        "function": "虚拟场馆",
+        "customInnerType": "nativeCommand"
+    }
+}
+```
+
+### 示例 4
+**用户输入**: 关闭演唱会音效
+
+```json
+{
+    "api": "sys.car.crl",
+    "param": {
+        "action": "关闭",
+        "function": "虚拟场馆",
+        "customInnerType": "nativeCommand"
+    }
+}
+```
+
+### 示例 5
+**用户输入**: 关闭虚拟场景设置页面
+
+```json
+{
+    "api": "sys.car.crl",
+    "param": {
+        "action_concrete": "true",
+        "function": "虚拟场馆",
+        "part": "模式",
+        "mode": "录音棚",
+        "customInnerType": "nativeCommand"
+    }
+}
+```
+
+
+## Implementation
+com.flyme.superagent.agent.skills.impl.VehicleControlSkill
