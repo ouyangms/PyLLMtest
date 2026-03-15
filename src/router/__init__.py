@@ -2,7 +2,7 @@
 from .category_config import CategoryConfig, classify_skills
 from .textcnn_model import TextCNN, TextCNNLite, create_model
 from .train_router import Trainer
-from .classifier import RouterClassifier
+from .contextual_dialog import ContextualDialogRouter
 
 __all__ = [
     "CategoryConfig",
@@ -11,6 +11,5 @@ __all__ = [
     "TextCNNLite",
     "create_model",
     "Trainer",
-    "load_data",
-    "RouterClassifier",
+    "ContextualDialogRouter",
 ]
