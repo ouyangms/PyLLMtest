@@ -1,0 +1,32 @@
+# 车控技能推理引擎 - 依赖项
+
+# 深度学习框架
+torch>=2.0.0
+
+# 句子嵌入模型
+sentence-transformers>=2.2.0
+
+# 向量检索
+faiss-cpu>=1.7.4
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 机器学习
+scikit-learn>=1.2.0
+
+# 配置文件
+pyyaml>=6.0
+
+# 进度条
+tqdm>=4.65.0
+
+# 绘图
+matplotlib>=3.7.0
+
+# 可选: LLM API 支持
+openai>=1.0.0
+
+# 可选: HTTP 客户端
+httpx>=0.24.0
