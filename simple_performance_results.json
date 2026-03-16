@@ -1,0 +1,29 @@
+{
+  "test_time": "2026-03-16 14:20:48",
+  "system": {
+    "cpu_cores": 24,
+    "total_memory_gb": 63.69602584838867
+  },
+  "latency": {
+    "avg_ms": 0.0034630007576197386,
+    "p95_ms": 0.004079920472577214,
+    "p99_ms": 0.0813640421256423,
+    "min_ms": 0.001999898813664913,
+    "max_ms": 0.08210004307329655
+  },
+  "throughput": {
+    "req_per_sec": 375981.8480195202,
+    "requests_10s": 3759846
+  },
+  "memory": {
+    "initial_mb": 19.0234375,
+    "final_mb": 19.02734375,
+    "increase_mb": 0.00390625,
+    "increase_percent": 0.02053388090349076
+  },
+  "accuracy": {
+    "score": 1.0,
+    "correct": 2,
+    "total": 2
+  }
+}
