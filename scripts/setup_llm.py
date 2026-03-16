@@ -148,12 +148,12 @@ def interactive_setup():
 
     elif choice == "4":
         provider = "ollama"
-        default_model = "qwen2:7b"
+        default_model = "qwen3:1.7b"
 
         print_section("Ollama 配置")
         print("\n请确保:")
         print("1. 已安装 Ollama: https://ollama.ai")
-        print("2. 已下载模型: ollama pull qwen2:7b")
+        print("2. 已下载模型: ollama pull qwen3:1.7b")
         print("3. 服务正在运行: ollama serve")
 
         model = input(f"\n模型名称 (默认: {default_model}): ").strip()

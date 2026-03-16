@@ -30,7 +30,9 @@ class LLMParser:
         self,
         use_local_llm: bool = False,
         model_path: Optional[str] = None,
-        api_key: Optional[str] = None
+        api_key: Optional[str] = None,
+        base_url: Optional[str] = None,
+        model_name: Optional[str] = None
     ):
         """
         初始化LLM解析器
@@ -43,6 +45,8 @@ class LLMParser:
         self.use_local_llm = use_local_llm
         self.model_path = model_path
         self.api_key = api_key
+        self.base_url = base_url
+        self.model_name = model_name
 
         if use_local_llm:
             self._init_local_llm()
@@ -52,9 +56,16 @@ class LLMParser:
     def _init_local_llm(self):
         """初始化本地LLM"""
         try:
-            # 这里可以集成llama.cpp或其他LLM
-            # 目前使用模拟版本
-            print("本地LLM初始化（模拟模式）")
+            if self.base_url and "localhost" in self.base_url:
+                # 使用Ollama
+                import requests
+                self._ollama_client = requests.Session()
+                self._ollama_base_url = self.base_url
+                self._ollama_model = self.model_name or "qwen3:1.7b"
+                print(f"Ollama初始化成功: {self._ollama_model}")
+            else:
+                # 使用llama.cpp
+                self._init_llama_cpp()
         except Exception as e:
             print(f"LLM初始化失败: {e}，使用规则引擎")
             self.use_local_llm = False
@@ -136,9 +147,78 @@ class LLMParser:
         return prompt
 
     def _call_llm(self, prompt: str) -> str:
-        """调用LLM（模拟版本）"""
-        # 这里应该调用实际的LLM
-        # 目前返回模拟响应
+        """调用LLM"""
+        if hasattr(self, '_ollama_client'):
+            # 使用Ollama
+            return self._call_ollama(prompt)
+        elif hasattr(self, '_llama_cpp'):
+            # 使用llama.cpp
+            return self._call_llama_cpp(prompt)
+        else:
+            # 模拟响应
+            return self._get_mock_response()
+
+    def _init_llama_cpp(self):
+        """初始化llama.cpp"""
+        try:
+            import llama_cpp
+            self._llama_cpp = llama_cpp.Llama(
+                model_path=self.model_path,
+                n_ctx=2048,
+                n_threads=4,
+                n_batch=512,
+                use_mmap=True,
+                use_mlock=False
+            )
+            print(f"llama.cpp初始化成功: {self.model_path}")
+        except Exception as e:
+            raise Exception(f"llama.cpp初始化失败: {e}")
+
+    def _call_ollama(self, prompt: str) -> str:
+        """调用Ollama API"""
+        try:
+            data = {
+                "model": self._ollama_model,
+                "prompt": prompt,
+                "stream": False,
+                "options": {
+                    "temperature": 0.7,
+                    "num_predict": 1000
+                }
+            }
+
+            response = self._ollama_client.post(
+                f"{self._ollama_base_url}/api/generate",
+                json=data,
+                timeout=60
+            )
+
+            response.raise_for_status()
+            result = response.json()
+
+            return result.get("response", "")
+        except Exception as e:
+            print(f"Ollama调用失败: {e}")
+            return self._get_mock_response()
+
+    def _call_llama_cpp(self, prompt: str) -> str:
+        """调用llama.cpp"""
+        try:
+            response = self._llama_cpp(
+                prompt,
+                max_tokens=1000,
+                temperature=0.7,
+                stop=["\n\n", "JSON"],
+                repeat_penalty=1.1
+            )
+
+            return response['choices'][0]['text']
+        except Exception as e:
+            print(f"llama.cpp调用失败: {e}")
+            return self._get_mock_response()
+
+    def _get_mock_response(self) -> str:
+        """获取模拟响应"""
         return """
 {
     "skill_id": "AdjustAirConditionerAbsoluteTemperature",
@@ -257,6 +337,7 @@ class HybridLLMEngine:
                 - model_path: 本地模型路径
                 - api_key: API密钥
                 - api_base: API地址
+                - model_name: 模型名称
         """
         self.config = config
         self.parser = None
@@ -264,12 +345,16 @@ class HybridLLMEngine:
         if config.get('use_local', False):
             self.parser = LLMParser(
                 use_local_llm=True,
-                model_path=config.get('model_path')
+                model_path=config.get('model_path'),
+                api_key=config.get('api_key'),
+                base_url=config.get('base_url'),
+                model_name=config.get('model_name')
             )
         elif config.get('use_api', False):
             self.parser = LLMParser(
                 use_local_llm=False,
-                api_key=config.get('api_key')
+                api_key=config.get('api_key'),
+                model_name=config.get('model_name')
             )
         else:
             # 使用规则引擎

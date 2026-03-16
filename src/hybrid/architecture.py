@@ -66,6 +66,36 @@ class FinalDecision:
 class HybridArchitectureConfig:
     """混合架构配置"""
 
+    # 模型配置
+    MODELS = {
+        "router": {
+            "name": "Router",
+            "path": "data/models/router_clean_final/best_model.pth",
+            "type": "textcnn",
+            "size": "<10MB",
+            "quantization": "INT8"
+        },
+        "llm": {
+            "name": "Qwen3-1.7B",
+            "provider": "local",
+            "deployment": "llama.cpp",
+            "quantization": "Q4_K_M",
+            "size": "~4-5GB",
+            "ctx_length": 2048,
+            "performance": {
+                "latency": "<300ms",
+                "memory": "~4-5GB"
+            },
+            "supports": ["grammar_constraint", "vulkan_gpu"]
+        },
+        "embedding": {
+            "name": "bge-small-zh-v1.5",
+            "type": "embedding",
+            "dim": 384,
+            "size": "~30MB"
+        }
+    }
+
     # 置信度阈值
     ROUTER_HIGH_CONFIDENCE = 0.90    # 路由高置信度阈值
     ROUTER_LOW_CONFIDENCE = 0.70     # 路由低置信度阈值
@@ -248,7 +278,7 @@ class ArchitectureSpec:
                     "responsibility": "从分类中检索相关技能"
                 },
                 "生成层": {
-                    "model": "LLM (Gemma-3-1B-IT)",
+                    "model": "LLM (Qwen3-1.7B)",
                     "quantization": "Q4_K_M",
                     "latency": "<300ms",
                     "responsibility": "复杂意图理解和参数提取"

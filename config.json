@@ -1,0 +1,52 @@
+{
+    "model": {
+        "provider": "local",
+        "name": "qwen3:1.7b",
+        "deployment": "ollama",
+        "quantization": "Q4_K_M",
+        "max_tokens": 1000,
+        "temperature": 0.7,
+        "system_prompt": "你是一个专业的车载语音指令助手，擅长理解和执行各种车控指令。"
+    },
+    "system": {
+        "confidence_threshold": 0.7,
+        "max_candidates": 3,
+        "fallback_to_api": true
+    },
+    "router": {
+        "model_path": "data/models/router_clean_final/best_model.pth",
+        "top_k": 3,
+        "confidence_threshold": 0.7,
+        "categories": [
+            "climate_control",
+            "window_control",
+            "seat_control",
+            "mirror_control",
+            "audio_control",
+            "lighting_control",
+            "vehicle_info",
+            "navigation"
+        ]
+    },
+    "retrieval": {
+        "embedding_model": "bge-small-zh-v1.5",
+        "index_path": "data/skills/index",
+        "skills_dir": "E:/ai/py/whisperModel/vc/skills",
+        "top_k": 3
+    },
+    "llama_cpp": {
+        "model_path": null,
+        "n_gpu_layers": -1,
+        "n_ctx": 2048,
+        "n_threads": 4,
+        "n_batch": 512,
+        "use_mmap": true,
+        "use_mlock": false,
+        "n_threads_batch": 1
+    },
+    "ollama": {
+        "base_url": "http://localhost:11434",
+        "model_name": "qwen3:1.7b",
+        "timeout": 60
+    }
+}

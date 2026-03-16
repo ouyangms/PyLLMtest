@@ -1,0 +1,54 @@
+{
+    "model": {
+        "provider": "ollama",
+        "name": "qwen3:1.7b",
+        "local_path": null,
+        "api_key": null,
+        "base_url": "http://localhost:11434",
+        "quantization": "Q4_K_M",
+        "max_tokens": 1000,
+        "temperature": 0.7
+    },
+    "system_prompt": {
+        "persona": "你是一个专业的车载语音指令助手，擅长理解和执行各种车控指令。",
+        "instructions": [
+            "识别用户的车控意图",
+            "提取相关参数（如温度、位置、模式等）",
+            "以JSON格式返回结果",
+            "置信度范围为0.0-1.0"
+        ],
+        "output_format": {
+            "skill_id": "技能唯一标识符",
+            "parameters": "参数对象",
+            "confidence": "0.0-1.0的置信度",
+            "reasoning": "选择原因说明"
+        }
+    },
+    "performance": {
+        "target_latency": "<300ms",
+        "target_confidence": ">0.85",
+        "fallback_threshold": 0.6,
+        "max_candidates": 3
+    },
+    "router": {
+        "model_path": "data/models/router_clean_final/best_model.pth",
+        "top_k": 3,
+        "confidence_threshold": 0.7
+    },
+    "retrieval": {
+        "embedding_model": "bge-small-zh-v1.5",
+        "index_path": "data/skills/index",
+        "skills_dir": "E:/ai/py/whisperModel/vc/skills",
+        "top_k": 3
+    },
+    "llama_cpp": {
+        "model_path": null,
+        "n_gpu_layers": -1,
+        "n_ctx": 2048,
+        "n_threads": 4,
+        "n_batch": 512,
+        "use_mmap": true,
+        "use_mlock": false,
+        "n_threads_batch": 1
+    }
+}
